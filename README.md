@@ -69,6 +69,7 @@ If you are interested in fixing issues and contributing directly to the code bas
 - [Smoke projects](projects/smoke/README.md)
 - [de-en smoke project](projects/smoke/de_en/README.md)
 - [en-ja smoke project](projects/smoke/en_ja/README.md)
+- [en-ru smoke project](projects/smoke/en_ru/README.md)
 - [en-ja quality checks](projects/quality/en_ja/README.md)
 
 ## Feedback
@@ -90,9 +91,16 @@ This repository now supports a local-first workflow. Start with unit tests,
 pair-specific smoke projects, and the `documents/` guides. Use Docker only when
 you need the full corpus images.
 
-Current reference pairs for the ongoing refactor are `de_en` and `en_ja`.
-Treat those two as the best examples of the intended contributor workflow. Some
-other language pairs still use more legacy runtime assumptions.
+Every pair except `en_ja` now runs on one shared alignment core
+(`src/ltc/backends/alignment/awesome_pair.py`), configured from
+`src/ltc/config/pairs.py`. Adding a pair is a config entry plus a ~30-line
+module — see [Add language pair](documents/Add_language_pair.md).
+
+`de_en` and `en_ru` are the pairs verified end to end against real backends, and
+`en_ru` is the worked example for onboarding a new language. `en_ja` keeps its
+own implementation because of its simalign/observation extensions. The remaining
+pairs were migrated mechanically and are covered by import checks and the
+equivalence tests, but have not been re-run against live models.
 
 This repository does not use Poetry, mise, or the Media of Langue DB toolchain.
 Start with the local Python runtime for small checks, and use Docker only when
