@@ -6,4 +6,8 @@ This file is continually being rewritten by contributors, so there may be deviat
 - Awesome alignment
 
 - JMAN
-- 
+
+- Natasha: Russian tokenization, POS tagging and lemmatization for the `ru`
+  language functions. MIT licensed. It bundles Razdel (tokenization), Slovnet
+  (the news-domain morphology models) and pymorphy2 (lemmatization). See
+  https://github.com/natasha/natasha.

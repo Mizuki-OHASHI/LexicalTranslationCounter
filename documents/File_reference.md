@@ -20,19 +20,19 @@ This file is used to run the entire process.
 count_function.py {offset} {la1} {la2}
 
 input file: 
-/root/src/data/input/corput_{la1}_{la2}.csv
-/root/src/data/input/wordlist_{la1}_{pos_tag}.csv
-/root/src/data/input/wordlist_{la2}_{pos_tag}.csv
+src/data/input/corpus_{la1}_{la2}.csv
+src/data/input/wordlist_{la1}_{pos_tag}.csv
+src/data/input/wordlist_{la2}_{pos_tag}.csv
 
 output file:
-/root/src/data/output/relations_{la1}_{la2}_{pos_tag}.csv
-/root/src/data/input/corput_{la1}_{la2}.csv
+src/data/output/relations_{la1}_{la2}_{pos_tag}.csv
+src/data/output/corpus_{la1}_{la2}.csv
 ```
 
 ## alignment.py
 
 Execute corpus alignment.
-It exists in /root/src/alignment/{la1}_{la2}/ for each language.
+It exists in `src/alignment/{la1}_{la2}/` for each language pair.
 This file contains the following functions
 
 ```
@@ -44,7 +44,7 @@ return [[{pos_code},{word_la1_id},{word_la1},{word_la2_id},{word_la2}], ]
 ## normalizer.py
 
 Contains a function that performs normalization of word orthography.
-It exists in /root/src/normalizer/ under the name {la}_normalizer.py.
+It exists in `src/normalizer/` under the name `{la}_normalizer.py`.
 
 ```
 {la}_normalizer(word, pos_tag, wordlist, test=False)
@@ -55,7 +55,7 @@ retuern id, word_normalized
 ## morphological.py
 
 It contains functions for word tokenization and morphological analysis.
-It exists in /root/src/morphological/ under the name {la}_morphological.py.
+It exists in `src/morphological/` under the name `{la}_morphological.py`.
 This function is not necessarily present in all languages and can be located in an alignment file, but it is recommended that it be created so that it can be used commonly across languages.
 
 ```
@@ -102,10 +102,21 @@ Relations exist for each interlanguage and are added for each new word pair foun
 
 The relations are composed of the following columns. This table is created using the alignment functions in this repository to configure the production environment.
 
-| columns     | describe                                        |
-|-------------|-------------------------------------------------|
-| id          | id of the relation:SERIAL                       |
-| id_word_la1 | id of la1:Integer                               |
-| id_word_la2 | id of la2:Integer                               |
-| id_examples | array of corpus id the relations detected:Array |
-| invalid     | invalid:Boolean                                 |
+| columns     | describe                                              |
+|-------------|-------------------------------------------------------|
+| id          | id of the relation:SERIAL                             |
+| id_word_la1 | id of la1:Integer                                     |
+| id_word_la2 | id of la2:Integer                                     |
+| count       | how many times the relation was observed:Integer      |
+| id_examples | set of corpus ids the relation was detected in:Set    |
+| status      | review status, written as `unknown` by the counter    |
+| invalid     | invalid:Boolean                                       |
+
+A row as written by `ltc.cli.count` looks like:
+
+```
+0,63,108,3,"{'5', '11', '29'}",unknown,False
+```
+
+Note that `id_examples` is serialized as a Python set in the final
+`relations_*.csv` and as a list in the `*_totyu.csv` checkpoint.
