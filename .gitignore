@@ -51,3 +51,6 @@ models/**
 
 CLAUDE.md
 .claude/**
+
+# Local smoke/verification run outputs (see projects/smoke/*/README.md)
+.tmp/
