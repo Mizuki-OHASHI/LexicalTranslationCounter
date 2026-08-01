@@ -34,6 +34,13 @@ from ltc.constants import POS_TAG_TO_NAME  # noqa: E402
 POS_NAMES = tuple(POS_TAG_TO_NAME.values())
 URL_RE = re.compile(r"https?://|www\.")
 # Rough script checks so an obviously mismatched line can be dropped early.
+#
+# LIMITATION: this only distinguishes writing systems, so it cannot tell
+# English from Swedish, German or Dutch, and a Latin-script pair that is not
+# actually en-* passes straight through. It also does not recognise
+# comma-separated tag dumps, which is the dominant noise pattern in ParaCrawl.
+# Anything beyond a smoke fixture needs real language identification and a
+# quality filter -- see documents/en-ru/Handoff_ja.md.
 SCRIPT_RANGES = {
     "en": re.compile(r"[A-Za-z]"),
     "de": re.compile(r"[A-Za-zÄÖÜäöüß]"),

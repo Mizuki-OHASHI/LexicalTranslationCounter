@@ -87,8 +87,11 @@ en-ru = [
   "natasha",
   "nltk",
   "pandas",
-  "torch==2.0.1",
-  "transformers==4.33.3",
+  # Deliberately not pinned to torch==2.0.1 / transformers==4.33.3 like the
+  # older pairs: those pins have no distribution for current Python versions
+  # and macOS arm64, so `pip install -e '.[en-ru]'` cannot succeed with them.
+  "torch>=2.0",
+  "transformers>=4.33",
 ]
 ja-sudachi = [
   "sudachipy",

@@ -304,7 +304,14 @@ def missing_awesome_model_files(model_dir):
 
 
 def has_cached_awesome_model(model_spec):
-    import transformers
+    try:
+        import transformers
+    except ImportError:
+        # setup_local_runtime.py runs this from the host interpreter while
+        # checking a different virtualenv, so transformers is often absent
+        # here. "Cannot tell" is the honest answer, and the caller treats it
+        # the same as "not cached".
+        return False
 
     try:
         transformers.BertConfig.from_pretrained(model_spec, local_files_only=True)

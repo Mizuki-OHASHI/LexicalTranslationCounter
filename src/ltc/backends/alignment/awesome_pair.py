@@ -36,11 +36,22 @@ class TokenIgnoreRule:
 
     `require_next_pos` covers the Chinese copula case, where a `be` verb is only
     dropped when the token after it is itself a verb.
+
+    `case_insensitive` exists because matching is on the raw token, so a
+    sentence-initial negator is missed by an all-lowercase word list. It
+    defaults to False to preserve the behaviour of the pairs that predate this
+    option; new pairs should set it.
     """
 
     words: Tuple[str, ...]
     offset: int
     require_next_pos: Optional[str] = None
+    case_insensitive: bool = False
+
+    def matches(self, token):
+        if self.case_insensitive:
+            return token.lower() in tuple(word.lower() for word in self.words)
+        return token in self.words
 
 
 @dataclass(frozen=True)
@@ -87,18 +98,15 @@ def build_ignore_indexes(tokens, pos_codes, rules):
     """Collect token indexes that the alignment should skip."""
     ignored = set()
     for rule in rules:
-        for word in rule.words:
-            if word not in tokens:
+        for index, token in enumerate(tokens):
+            if not rule.matches(token):
                 continue
-            for index, token in enumerate(tokens):
-                if token != word:
+            if rule.require_next_pos is not None:
+                if index + 1 >= len(tokens):
                     continue
-                if rule.require_next_pos is not None:
-                    if index + 1 >= len(tokens):
-                        continue
-                    if pos_codes[index + 1] != rule.require_next_pos:
-                        continue
-                ignored.add(index + rule.offset)
+                if pos_codes[index + 1] != rule.require_next_pos:
+                    continue
+            ignored.add(index + rule.offset)
     return ignored
 
 

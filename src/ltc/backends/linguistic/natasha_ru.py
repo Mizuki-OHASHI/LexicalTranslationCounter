@@ -14,6 +14,10 @@ from __future__ import annotations
 
 from ltc.constants import LTC_CODE_TO_PRIMARY_UD_POS, UD_POS_TO_LTC_CODE
 
+# The normalizer is called once per candidate word combination per POS tag, so
+# the same handful of forms recur constantly within a corpus.
+LEMMA_CACHE_SIZE = 100_000
+
 
 class NatashaRussianBackend:
     """Lazily-loaded Natasha pipeline shared by the ru morphological/normalizer."""
@@ -25,6 +29,7 @@ class NatashaRussianBackend:
         self._segmenter = None
         self._morph_tagger = None
         self._morph_vocab = None
+        self._lemma_cache = {}
 
     def _ensure_loaded(self):
         if self._segmenter is not None:
@@ -73,19 +78,44 @@ class NatashaRussianBackend:
 
         return [token.text for token in tokenize(text)]
 
+    def _lemmatize_token(self, token, ud_pos):
+        """Lemmatize a single token, disambiguating with its morphological features.
+
+        `MorphVocab.lemmatize` picks between competing pymorphy parses using the
+        feature dict it is handed. Passing `{}` leaves it guessing, which is how
+        `снимок` came back as `снимка`. Tagging the token first — with its
+        original casing, which the tagger uses as a cue — supplies the features
+        that Natasha's own `token.lemmatize(morph_vocab)` would have had.
+        """
+        cache_key = (token, ud_pos)
+        cached = self._lemma_cache.get(cache_key)
+        if cached is not None:
+            return cached
+
+        tagged = self._tagged_doc(token).tokens
+        feats = tagged[0].feats if tagged else {}
+        lemma = self.morph_vocab.lemmatize(token, ud_pos, feats or {}).lower()
+
+        if len(self._lemma_cache) < LEMMA_CACHE_SIZE:
+            self._lemma_cache[cache_key] = lemma
+        return lemma
+
     def lemmatize_word(self, word, ltc_pos_tag):
-        """Lemmatize one whitespace-joined word or phrase to its LTC form."""
+        """Lemmatize one whitespace-joined word or phrase to its LTC form.
+
+        Multi-token phrases are lemmatized token by token under a single POS
+        tag, which does not respect Russian agreement — see
+        `documents/en-ru/Handoff_ja.md`.
+        """
         ud_pos = LTC_CODE_TO_PRIMARY_UD_POS.get(ltc_pos_tag)
         if ud_pos is None:
             raise ValueError(
                 f"unknown LTC pos tag {ltc_pos_tag!r}; expected one of "
                 f"{sorted(LTC_CODE_TO_PRIMARY_UD_POS)}"
             )
-        vocab = self.morph_vocab
-        lemmas = [
-            vocab.lemmatize(token.lower(), ud_pos, {}) for token in self.tokenize(word)
-        ]
-        return " ".join(lemmas)
+        return " ".join(
+            self._lemmatize_token(token, ud_pos) for token in self.tokenize(word)
+        )
 
     # -- diagnostics -------------------------------------------------------
 

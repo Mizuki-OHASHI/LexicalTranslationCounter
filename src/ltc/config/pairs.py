@@ -83,7 +83,11 @@ PAIR_CONFIGS = {
         model_dir_name=None,
         src_ignore_rules=(EN_NEGATION,),
         # Russian negates with a preposed particle `не`, like English `not`.
-        trg_ignore_rules=(TokenIgnoreRule(words=("не",), offset=1),),
+        # INCOMPLETE: `ни`, `нет`, `нельзя`, the `не-` prefix and correlative
+        # negation are not handled. See documents/en-ru/Handoff_ja.md.
+        trg_ignore_rules=(
+            TokenIgnoreRule(words=("не",), offset=1, case_insensitive=True),
+        ),
         # Matches the other multilingual-BERT pairs (en_es, en_ko); revisit
         # once a fine-tuned model is registered.
         threshold=4e-7,
