@@ -20,7 +20,10 @@ import time
 from array import array
 from pathlib import Path
 
-import psutil
+try:
+    import psutil
+except ImportError:  # optional: only used for the RSS progress log
+    psutil = None
 
 
 POS_TAGS = ["noun", "verb", "adj", "adverb"]
@@ -112,6 +115,8 @@ def format_examples_totyu(examples):
 
 
 def log_mem(label):
+    if psutil is None:
+        return
     rss_gb = psutil.Process().memory_info().rss / (1024**3)
     print(f"[mem] {label}: RSS = {rss_gb:.2f} GB", flush=True)
 

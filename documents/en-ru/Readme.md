@@ -1,5 +1,11 @@
 # en-ru notes
 
+> **Picking up Russian work?** Start with
+> [Handoff_ja.md](Handoff_ja.md) (日本語). It lists the open Russian-language
+> decisions, the measured quality baseline, and which tasks need Russian
+> knowledge versus plain engineering. This file is the runtime reference; that
+> one is the work list.
+
 ## Status
 
 `en_ru` runs end to end on the shared alignment core. It has **no fine-tuned

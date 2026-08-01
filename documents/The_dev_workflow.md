@@ -48,6 +48,11 @@ lexicalization logic:
 
 - [projects/quality/en_ja/README.md](../projects/quality/en_ja/README.md)
 
+`en_ru` has no quality project yet. Its open work is tracked in
+[documents/en-ru/Handoff_ja.md](en-ru/Handoff_ja.md), which separates the
+decisions that need Russian-language knowledge from the engineering that does
+not.
+
 ### Pair training / data prep
 
 Use a training project when you are preparing public corpora for fine-tuning:

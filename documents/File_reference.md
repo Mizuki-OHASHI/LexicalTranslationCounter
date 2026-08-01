@@ -102,10 +102,21 @@ Relations exist for each interlanguage and are added for each new word pair foun
 
 The relations are composed of the following columns. This table is created using the alignment functions in this repository to configure the production environment.
 
-| columns     | describe                                        |
-|-------------|-------------------------------------------------|
-| id          | id of the relation:SERIAL                       |
-| id_word_la1 | id of la1:Integer                               |
-| id_word_la2 | id of la2:Integer                               |
-| id_examples | array of corpus id the relations detected:Array |
-| invalid     | invalid:Boolean                                 |
+| columns     | describe                                              |
+|-------------|-------------------------------------------------------|
+| id          | id of the relation:SERIAL                             |
+| id_word_la1 | id of la1:Integer                                     |
+| id_word_la2 | id of la2:Integer                                     |
+| count       | how many times the relation was observed:Integer      |
+| id_examples | set of corpus ids the relation was detected in:Set    |
+| status      | review status, written as `unknown` by the counter    |
+| invalid     | invalid:Boolean                                       |
+
+A row as written by `ltc.cli.count` looks like:
+
+```
+0,63,108,3,"{'5', '11', '29'}",unknown,False
+```
+
+Note that `id_examples` is serialized as a Python set in the final
+`relations_*.csv` and as a list in the `*_totyu.csv` checkpoint.

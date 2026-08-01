@@ -12,3 +12,5 @@ This file is continually being rewritten by contributors, so there may be deviat
   replication, distribution, and modification for research purposes; commercial
   use is outside that grant and requires separate contact with NTT. See
   https://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/.
+- ParaCrawl en-ru: used for the en-ru smoke corpus fixture, under the same
+  CC0 packaging terms as the de-en release above.

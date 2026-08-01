@@ -70,6 +70,7 @@ If you are interested in fixing issues and contributing directly to the code bas
 - [de-en smoke project](projects/smoke/de_en/README.md)
 - [en-ja smoke project](projects/smoke/en_ja/README.md)
 - [en-ru smoke project](projects/smoke/en_ru/README.md)
+- [en-ru notes](documents/en-ru/Readme.md) and its [handoff work list (日本語)](documents/en-ru/Handoff_ja.md)
 - [en-ja quality checks](projects/quality/en_ja/README.md)
 
 ## Feedback
@@ -106,6 +107,9 @@ This repository does not use Poetry, mise, or the Media of Langue DB toolchain.
 Start with the local Python runtime for small checks, and use Docker only when
 you need the full corpus data images.
 
+- First step for any pair — create the virtualenv the commands below assume:
+  `python3 scripts/setup_local_runtime.py --language-pair de-en` (or `en-ja`, `en-ru`).
+  Re-run it with `--check-only` to verify an existing one.
 - Build/run: [How to build and run from source](documents/How_to_build_and_run_from_source.md)
 - Contributor workflow: [The development workflow](documents/The_dev_workflow.md)
 - Tests: [How to test](documents/How_to_test.md)
