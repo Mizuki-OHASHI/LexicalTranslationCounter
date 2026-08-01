@@ -43,7 +43,9 @@ class AwesomeModelSelection:
     @property
     def note(self):
         if self.production_ready:
-            return f"{self.profile} model via {self.resolution_source}: {self.model_spec}"
+            return (
+                f"{self.profile} model via {self.resolution_source}: {self.model_spec}"
+            )
         return (
             f"{self.profile} model via {self.resolution_source}: {self.model_spec} "
             f"(use a fine-tuned model before production runs)"
@@ -187,15 +189,18 @@ def resolve_awesome_model_selection(
                 metadata=registry_payload["metadata"],
             )
 
-    root = default_root_for_alignment_module(file_path)
-    local_path = Path(root) / "src" / "model" / local_dir_name
-    if local_path.is_dir():
-        return build_model_selection(
-            str(local_path),
-            resolution_source=f"repo_local:{local_dir_name}",
-            fallback_model_name=fallback_model_name,
-            metadata=read_model_metadata(local_path),
-        )
+    # Pairs that never had a fine-tuned local model (en_es, en_ko) pass None
+    # and go straight to the fallback.
+    if local_dir_name:
+        root = default_root_for_alignment_module(file_path)
+        local_path = Path(root) / "src" / "model" / local_dir_name
+        if local_path.is_dir():
+            return build_model_selection(
+                str(local_path),
+                resolution_source=f"repo_local:{local_dir_name}",
+                fallback_model_name=fallback_model_name,
+                metadata=read_model_metadata(local_path),
+            )
 
     return build_model_selection(
         fallback_model_name,
@@ -229,7 +234,9 @@ def load_awesome_model_and_tokenizer(model_spec):
 
     model_path = Path(model_spec)
     if model_path.exists():
-        model = transformers.BertModel.from_pretrained(str(model_path), local_files_only=True)
+        model = transformers.BertModel.from_pretrained(
+            str(model_path), local_files_only=True
+        )
         tokenizer = transformers.BertTokenizer.from_pretrained(
             str(model_path), local_files_only=True
         )
@@ -260,9 +267,7 @@ def build_awesome_input_ids_and_subword_map(tokenizer, words):
     ]
     flat_token_ids = list(itertools.chain(*token_ids_per_word))
     sub2word_map = [
-        word_index
-        for word_index, tokens in enumerate(word_tokens)
-        for _ in tokens
+        word_index for word_index, tokens in enumerate(word_tokens) for _ in tokens
     ]
 
     max_length = getattr(tokenizer, "model_max_length", None)
@@ -311,9 +316,7 @@ def has_cached_awesome_model(model_spec):
 def looks_like_explicit_local_path(model_spec):
     expanded = os.path.expanduser(model_spec)
     return (
-        os.path.isabs(expanded)
-        or expanded.startswith(".")
-        or expanded.startswith("~")
+        os.path.isabs(expanded) or expanded.startswith(".") or expanded.startswith("~")
     )
 
 

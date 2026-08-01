@@ -1,0 +1,15597 @@
+{
+ "base_rev": "HEAD",
+ "cases": [
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     true,
+     false
+    ],
+    [
+     false,
+     true,
+     true,
+     true,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ]
+   ],
+   "pos_src": [
+    "",
+    "n",
+    "r",
+    "a",
+    "n",
+    "r"
+   ],
+   "pos_trg": [
+    "r",
+    "v",
+    "r",
+    "v",
+    "n",
+    "n",
+    "n"
+   ],
+   "sent_src": [
+    "pas",
+    "cat",
+    "is",
+    "pas",
+    "n't",
+    "not"
+   ],
+   "sent_trg": [
+    "läuft",
+    "no",
+    "pas",
+    "no",
+    "ne",
+    "die",
+    "안"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    5
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    2,
+    3,
+    4,
+    4,
+    5,
+    5,
+    6
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     true,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     true,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "n",
+    "r"
+   ],
+   "pos_trg": [
+    "v",
+    "r",
+    "r",
+    "v"
+   ],
+   "sent_src": [
+    "pas",
+    "red"
+   ],
+   "sent_trg": [
+    "不",
+    "no",
+    "안",
+    "没"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    3,
+    3
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false
+    ],
+    [
+     true,
+     true
+    ],
+    [
+     false,
+     false
+    ],
+    [
+     false,
+     false
+    ],
+    [
+     false,
+     false
+    ],
+    [
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "v",
+    "a",
+    "r",
+    "n"
+   ],
+   "pos_trg": [
+    "",
+    "v"
+   ],
+   "sent_src": [
+    "be",
+    "quickly",
+    "cat",
+    "nicht"
+   ],
+   "sent_trg": [
+    "rot",
+    "not"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    3
+   ],
+   "sub2word_map_trg": [
+    0,
+    1
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     false,
+     true,
+     false,
+     false,
+     true,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     true
+    ],
+    [
+     true,
+     false,
+     true,
+     false,
+     false,
+     true,
+     true,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     true,
+     true,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false
+    ]
+   ],
+   "pos_src": [
+    "r",
+    "v",
+    "",
+    "a",
+    "",
+    "a"
+   ],
+   "pos_trg": [
+    "",
+    "",
+    "v",
+    "v",
+    "r",
+    "v"
+   ],
+   "sent_src": [
+    "nicht",
+    "is",
+    "quickly",
+    "n't",
+    "be",
+    "the"
+   ],
+   "sent_trg": [
+    "안",
+    "not",
+    "die",
+    "katze",
+    "ne",
+    "ne"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    1,
+    2,
+    2,
+    3,
+    4,
+    5,
+    5
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    3,
+    4,
+    4,
+    5,
+    5
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ]
+   ],
+   "pos_src": [
+    "v",
+    "v",
+    "",
+    "r",
+    "n",
+    "",
+    "r"
+   ],
+   "pos_trg": [
+    "a",
+    "v",
+    "a",
+    "n",
+    "v"
+   ],
+   "sent_src": [
+    "is",
+    "red",
+    "not",
+    "ne",
+    "runs",
+    "the",
+    "quickly"
+   ],
+   "sent_trg": [
+    "no",
+    "n't",
+    "rot",
+    "die",
+    "die"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    1,
+    2,
+    3,
+    3,
+    4,
+    5,
+    5,
+    6
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     true,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     true,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     true,
+     false
+    ]
+   ],
+   "pos_src": [
+    "a",
+    "",
+    "v",
+    "v",
+    "a",
+    "v"
+   ],
+   "pos_trg": [
+    "a",
+    "v",
+    "r",
+    "r"
+   ],
+   "sent_src": [
+    "the",
+    "pas",
+    "is",
+    "quickly",
+    "n't",
+    "quickly"
+   ],
+   "sent_trg": [
+    "안",
+    "没",
+    "schnell",
+    "ne"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    1,
+    2,
+    2,
+    3,
+    4,
+    5,
+    5
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     true,
+     true,
+     true,
+     true,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     true,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "",
+    "",
+    "a",
+    "v",
+    "",
+    "n",
+    "a"
+   ],
+   "pos_trg": [
+    "",
+    "r",
+    "n",
+    "n"
+   ],
+   "sent_src": [
+    "pas",
+    "big",
+    "is",
+    "the",
+    "the",
+    "the",
+    "pas"
+   ],
+   "sent_trg": [
+    "pas",
+    "schnell",
+    "schnell",
+    "ない"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    6
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    2,
+    2,
+    3
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     true,
+     true,
+     false,
+     false,
+     true,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     false
+    ]
+   ],
+   "pos_src": [
+    "n",
+    "n",
+    "n",
+    "a"
+   ],
+   "pos_trg": [
+    "v",
+    "n",
+    "r",
+    "v"
+   ],
+   "sent_src": [
+    "nicht",
+    "cat",
+    "quickly",
+    "pas"
+   ],
+   "sent_trg": [
+    "läuft",
+    "not",
+    "katze",
+    "没"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    3
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     false,
+     true,
+     false
+    ]
+   ],
+   "pos_src": [
+    "",
+    ""
+   ],
+   "pos_trg": [
+    "a",
+    "a",
+    "",
+    "a"
+   ],
+   "sent_src": [
+    "not",
+    "big"
+   ],
+   "sent_trg": [
+    "schnell",
+    "ne",
+    "안",
+    "not"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    1
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    2,
+    3,
+    3
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "r",
+    "n",
+    "r",
+    "n"
+   ],
+   "pos_trg": [
+    "v",
+    "r",
+    "n"
+   ],
+   "sent_src": [
+    "cat",
+    "pas",
+    "quickly",
+    "n't"
+   ],
+   "sent_trg": [
+    "ne",
+    "katze",
+    "没"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    1,
+    2,
+    3
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    2,
+    2
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "v",
+    "v"
+   ],
+   "pos_trg": [
+    "a",
+    "v"
+   ],
+   "sent_src": [
+    "ne",
+    "is"
+   ],
+   "sent_trg": [
+    "die",
+    "ない"
+   ],
+   "sub2word_map_src": [
+    0,
+    1
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     false,
+     false,
+     true
+    ]
+   ],
+   "pos_src": [
+    "r",
+    "n",
+    "r",
+    "",
+    "r"
+   ],
+   "pos_trg": [
+    "",
+    "v",
+    "a",
+    "v",
+    "v",
+    "n",
+    "r"
+   ],
+   "sent_src": [
+    "quickly",
+    "runs",
+    "big",
+    "not",
+    "is"
+   ],
+   "sent_trg": [
+    "pas",
+    "die",
+    "no",
+    "no",
+    "katze",
+    "schnell",
+    "pas"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    2,
+    3,
+    3,
+    4,
+    4,
+    5,
+    5,
+    6,
+    6
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     true
+    ],
+    [
+     true,
+     false,
+     false,
+     true
+    ],
+    [
+     true,
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "",
+    "r",
+    "",
+    "a"
+   ],
+   "pos_trg": [
+    "",
+    "v"
+   ],
+   "sent_src": [
+    "the",
+    "is",
+    "quickly",
+    "be"
+   ],
+   "sent_trg": [
+    "läuft",
+    "die"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    2,
+    2,
+    3,
+    3
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     true,
+     true,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true
+    ]
+   ],
+   "pos_src": [
+    "v",
+    "r",
+    "a"
+   ],
+   "pos_trg": [
+    "r",
+    "",
+    "n",
+    "v",
+    "n"
+   ],
+   "sent_src": [
+    "be",
+    "n't",
+    "pas"
+   ],
+   "sent_trg": [
+    "no",
+    "not",
+    "no",
+    "schnell",
+    "not"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    2
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    2,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     true,
+     false
+    ]
+   ],
+   "pos_src": [
+    "v",
+    "a",
+    ""
+   ],
+   "pos_trg": [
+    "v",
+    "",
+    "a"
+   ],
+   "sent_src": [
+    "the",
+    "not",
+    "red"
+   ],
+   "sent_trg": [
+    "n't",
+    "n't",
+    "die"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    2,
+    2
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     true
+    ]
+   ],
+   "pos_src": [
+    "a",
+    "",
+    "n",
+    ""
+   ],
+   "pos_trg": [
+    "n",
+    "r",
+    "r",
+    "a"
+   ],
+   "sent_src": [
+    "nicht",
+    "be",
+    "runs",
+    "runs"
+   ],
+   "sent_trg": [
+    "안",
+    "n't",
+    "ne",
+    "ne"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    2,
+    3,
+    3
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "matrix": [
+    [
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     true
+    ],
+    [
+     false,
+     true,
+     true
+    ]
+   ],
+   "pos_src": [
+    "a",
+    "v",
+    "",
+    ""
+   ],
+   "pos_trg": [
+    "",
+    "a"
+   ],
+   "sent_src": [
+    "big",
+    "pas",
+    "red",
+    "runs"
+   ],
+   "sent_trg": [
+    "läuft",
+    "안"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     true,
+     true,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     true,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "n",
+    "r",
+    "",
+    "v",
+    "a",
+    "a",
+    "v"
+   ],
+   "pos_trg": [
+    "",
+    "a",
+    "a",
+    "r",
+    "n",
+    ""
+   ],
+   "sent_src": [
+    "is",
+    "quickly",
+    "quickly",
+    "is",
+    "cat",
+    "pas",
+    "red"
+   ],
+   "sent_trg": [
+    "pas",
+    "ne",
+    "katze",
+    "pas",
+    "not",
+    "不"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    3,
+    4,
+    4,
+    5,
+    5,
+    6
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    2,
+    3,
+    3,
+    4,
+    5,
+    5
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     true,
+     true,
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     false,
+     true,
+     true,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "",
+    "r",
+    "n"
+   ],
+   "pos_trg": [
+    "a",
+    "",
+    "r",
+    "",
+    "n",
+    ""
+   ],
+   "sent_src": [
+    "not",
+    "big",
+    "quickly"
+   ],
+   "sent_trg": [
+    "ne",
+    "katze",
+    "läuft",
+    "rot",
+    "läuft",
+    "rot"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    2
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    1,
+    2,
+    3,
+    4,
+    4,
+    5
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     true
+    ],
+    [
+     true,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     true
+    ]
+   ],
+   "pos_src": [
+    "r",
+    "a",
+    "v",
+    "v"
+   ],
+   "pos_trg": [
+    "a",
+    "a",
+    "r"
+   ],
+   "sent_src": [
+    "nicht",
+    "red",
+    "is",
+    "quickly"
+   ],
+   "sent_trg": [
+    "不",
+    "rot",
+    "not"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    1,
+    2,
+    3,
+    3
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    1,
+    2,
+    2
+   ]
+  },
+  {
+   "matrix": [
+    [
+     true,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     true
+    ]
+   ],
+   "pos_src": [
+    "",
+    "",
+    ""
+   ],
+   "pos_trg": [
+    "v",
+    "a",
+    "",
+    "v",
+    "r"
+   ],
+   "sent_src": [
+    "n't",
+    "runs",
+    "red"
+   ],
+   "sent_trg": [
+    "rot",
+    "rot",
+    "n't",
+    "ne",
+    "ne"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    2
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    2,
+    3,
+    3,
+    4,
+    4
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     true,
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     false,
+     true,
+     true,
+     false,
+     false,
+     false,
+     true,
+     true
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "a",
+    "v",
+    "v",
+    "n",
+    "n",
+    "r"
+   ],
+   "pos_trg": [
+    "",
+    "",
+    "v",
+    "a",
+    "a",
+    "r"
+   ],
+   "sent_src": [
+    "n't",
+    "quickly",
+    "cat",
+    "ne",
+    "the",
+    "quickly"
+   ],
+   "sent_trg": [
+    "pas",
+    "不",
+    "没",
+    "schnell",
+    "die",
+    "die"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3,
+    4,
+    4,
+    5
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    1,
+    2,
+    3,
+    4,
+    4,
+    5
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true
+    ]
+   ],
+   "pos_src": [
+    "",
+    "n",
+    "r"
+   ],
+   "pos_trg": [
+    "r",
+    "",
+    "r"
+   ],
+   "sent_src": [
+    "red",
+    "quickly",
+    "ne"
+   ],
+   "sent_trg": [
+    "没",
+    "die",
+    "rot"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    1,
+    2
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    2,
+    2
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "a",
+    "v",
+    "a",
+    ""
+   ],
+   "pos_trg": [
+    "a",
+    "n",
+    "a"
+   ],
+   "sent_src": [
+    "n't",
+    "ne",
+    "n't",
+    "the"
+   ],
+   "sent_trg": [
+    "rot",
+    "pas",
+    "ない"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    1,
+    2,
+    3
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     true,
+     false,
+     true,
+     false
+    ]
+   ],
+   "pos_src": [
+    "v",
+    "a",
+    "n",
+    "",
+    "n"
+   ],
+   "pos_trg": [
+    "a",
+    "v",
+    "n"
+   ],
+   "sent_src": [
+    "not",
+    "runs",
+    "quickly",
+    "quickly",
+    "runs"
+   ],
+   "sent_trg": [
+    "ne",
+    "pas",
+    "katze"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    1,
+    2
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     true,
+     true,
+     true,
+     true,
+     false,
+     true
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     true,
+     true,
+     false,
+     true
+    ]
+   ],
+   "pos_src": [
+    "",
+    "a",
+    "v",
+    "a",
+    "v",
+    "n"
+   ],
+   "pos_trg": [
+    "r",
+    "",
+    "a",
+    "n",
+    ""
+   ],
+   "sent_src": [
+    "is",
+    "not",
+    "runs",
+    "nicht",
+    "not",
+    "ne"
+   ],
+   "sent_trg": [
+    "rot",
+    "katze",
+    "pas",
+    "rot",
+    "die"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    2,
+    3,
+    3,
+    4,
+    5,
+    5
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    3,
+    4,
+    4
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     true
+    ],
+    [
+     true,
+     true,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "a",
+    "a",
+    "",
+    "a",
+    "a",
+    "n"
+   ],
+   "pos_trg": [
+    "v",
+    "v",
+    "n"
+   ],
+   "sent_src": [
+    "ne",
+    "nicht",
+    "cat",
+    "the",
+    "quickly",
+    "red"
+   ],
+   "sent_trg": [
+    "schnell",
+    "die",
+    "die"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    5
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "matrix": [
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false
+    ]
+   ],
+   "pos_src": [
+    "a",
+    ""
+   ],
+   "pos_trg": [
+    "v",
+    "r",
+    "",
+    "v",
+    "v"
+   ],
+   "sent_src": [
+    "nicht",
+    "nicht"
+   ],
+   "sent_trg": [
+    "ne",
+    "pas",
+    "schnell",
+    "n't",
+    "ne"
+   ],
+   "sub2word_map_src": [
+    0,
+    1
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    2,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "matrix": [
+    [
+     true,
+     false,
+     true,
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     true,
+     false
+    ],
+    [
+     true,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "n",
+    ""
+   ],
+   "pos_trg": [
+    "r",
+    "a",
+    "v",
+    "v",
+    "n"
+   ],
+   "sent_src": [
+    "be",
+    "cat"
+   ],
+   "sent_trg": [
+    "schnell",
+    "没",
+    "rot",
+    "not",
+    "ne"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     true,
+     true,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "r",
+    "",
+    "",
+    "v",
+    "n"
+   ],
+   "pos_trg": [
+    "v",
+    "a",
+    "v",
+    "n",
+    "r"
+   ],
+   "sent_src": [
+    "nicht",
+    "cat",
+    "big",
+    "the",
+    "not"
+   ],
+   "sent_trg": [
+    "no",
+    "schnell",
+    "ない",
+    "no",
+    "ne"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     true,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     true,
+     true,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "n",
+    "v"
+   ],
+   "pos_trg": [
+    "n",
+    "v",
+    "r",
+    "n"
+   ],
+   "sent_src": [
+    "not",
+    "is"
+   ],
+   "sent_trg": [
+    "läuft",
+    "不",
+    "pas",
+    "rot"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    2,
+    3,
+    3
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     true,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "a",
+    "v",
+    "a",
+    "a",
+    "v",
+    "r",
+    "n"
+   ],
+   "pos_trg": [
+    "a",
+    "",
+    "n"
+   ],
+   "sent_src": [
+    "red",
+    "pas",
+    "pas",
+    "ne",
+    "is",
+    "be",
+    "not"
+   ],
+   "sent_trg": [
+    "pas",
+    "schnell",
+    "ne"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    2,
+    3,
+    3,
+    4,
+    4,
+    5,
+    6
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    1,
+    2
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false
+    ],
+    [
+     false,
+     true
+    ],
+    [
+     false,
+     true
+    ],
+    [
+     false,
+     false
+    ],
+    [
+     false,
+     false
+    ],
+    [
+     false,
+     false
+    ],
+    [
+     false,
+     true
+    ]
+   ],
+   "pos_src": [
+    "n",
+    "n",
+    "v",
+    "n",
+    ""
+   ],
+   "pos_trg": [
+    "v",
+    ""
+   ],
+   "sent_src": [
+    "quickly",
+    "big",
+    "cat",
+    "red",
+    "n't"
+   ],
+   "sent_trg": [
+    "läuft",
+    "no"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    2,
+    3,
+    3,
+    4
+   ],
+   "sub2word_map_trg": [
+    0,
+    1
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     false,
+     true,
+     true,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     true,
+     false,
+     true
+    ],
+    [
+     true,
+     false,
+     false,
+     true,
+     true,
+     false,
+     true,
+     false,
+     true
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     true,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "n",
+    "",
+    "n",
+    "",
+    "v",
+    "r",
+    "r"
+   ],
+   "pos_trg": [
+    "n",
+    "v",
+    "r",
+    "n",
+    "n"
+   ],
+   "sent_src": [
+    "be",
+    "big",
+    "nicht",
+    "not",
+    "is",
+    "the",
+    "not"
+   ],
+   "sent_trg": [
+    "die",
+    "不",
+    "rot",
+    "没",
+    "no"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    3,
+    4,
+    4,
+    5,
+    5,
+    6
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    3,
+    3,
+    4,
+    4
+   ]
+  },
+  {
+   "matrix": [
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     true
+    ],
+    [
+     false,
+     true,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     false,
+     true,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "",
+    "r",
+    "a",
+    "n"
+   ],
+   "pos_trg": [
+    "a",
+    "",
+    "a",
+    "n",
+    "a",
+    "n",
+    ""
+   ],
+   "sent_src": [
+    "big",
+    "runs",
+    "not",
+    "be"
+   ],
+   "sent_trg": [
+    "不",
+    "rot",
+    "rot",
+    "n't",
+    "不",
+    "die",
+    "ない"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    1,
+    2,
+    3,
+    3
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    1,
+    2,
+    3,
+    4,
+    4,
+    5,
+    5,
+    6,
+    6
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false,
+     true
+    ],
+    [
+     false,
+     true,
+     false,
+     false,
+     true,
+     false,
+     false,
+     true
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "v",
+    "",
+    "",
+    "a",
+    "a",
+    "n",
+    "a"
+   ],
+   "pos_trg": [
+    "a",
+    "r",
+    "n",
+    "a",
+    "v",
+    "a",
+    "r"
+   ],
+   "sent_src": [
+    "runs",
+    "n't",
+    "is",
+    "big",
+    "runs",
+    "n't",
+    "cat"
+   ],
+   "sent_trg": [
+    "rot",
+    "没",
+    "ない",
+    "rot",
+    "没",
+    "rot",
+    "not"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4,
+    5,
+    6,
+    6
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    6
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true
+    ]
+   ],
+   "pos_src": [
+    "n",
+    ""
+   ],
+   "pos_trg": [
+    "a",
+    "r",
+    "a"
+   ],
+   "sent_src": [
+    "not",
+    "quickly"
+   ],
+   "sent_trg": [
+    "not",
+    "rot",
+    "n't"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    1
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    1,
+    2
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ]
+   ],
+   "pos_src": [
+    "a",
+    "v",
+    "r",
+    "r",
+    "",
+    "v"
+   ],
+   "pos_trg": [
+    "v",
+    "",
+    "",
+    "r",
+    "v",
+    "v",
+    ""
+   ],
+   "sent_src": [
+    "quickly",
+    "n't",
+    "pas",
+    "not",
+    "ne",
+    "quickly"
+   ],
+   "sent_trg": [
+    "not",
+    "안",
+    "不",
+    "rot",
+    "katze",
+    "pas",
+    "没"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    3,
+    4,
+    4,
+    5
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    3,
+    4,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "matrix": [
+    [
+     true,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "v",
+    "r",
+    "",
+    "n",
+    "",
+    "v"
+   ],
+   "pos_trg": [
+    "r",
+    "a",
+    "",
+    ""
+   ],
+   "sent_src": [
+    "quickly",
+    "quickly",
+    "not",
+    "is",
+    "runs",
+    "n't"
+   ],
+   "sent_trg": [
+    "pas",
+    "pas",
+    "not",
+    "no"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    1,
+    2,
+    3,
+    3,
+    4,
+    5,
+    5
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     true,
+     true,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "v",
+    "n",
+    "v",
+    "",
+    "v"
+   ],
+   "pos_trg": [
+    "v",
+    ""
+   ],
+   "sent_src": [
+    "is",
+    "be",
+    "red",
+    "not",
+    "is"
+   ],
+   "sent_trg": [
+    "안",
+    "die"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    2,
+    3,
+    3,
+    4,
+    4
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "matrix": [
+    [
+     true,
+     false,
+     true,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     true,
+     true,
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     true
+    ],
+    [
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "",
+    "n",
+    "",
+    ""
+   ],
+   "pos_trg": [
+    "r",
+    "a",
+    "n",
+    "r",
+    "n",
+    "n",
+    "a"
+   ],
+   "sent_src": [
+    "nicht",
+    "nicht",
+    "red",
+    "quickly"
+   ],
+   "sent_trg": [
+    "rot",
+    "läuft",
+    "안",
+    "안",
+    "läuft",
+    "rot",
+    "n't"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    2,
+    2,
+    3
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    3,
+    3,
+    4,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "r",
+    "v",
+    "n",
+    "a",
+    "r",
+    "n"
+   ],
+   "pos_trg": [
+    "n",
+    "n",
+    ""
+   ],
+   "sent_src": [
+    "be",
+    "red",
+    "red",
+    "cat",
+    "is",
+    "nicht"
+   ],
+   "sent_trg": [
+    "pas",
+    "ない",
+    "pas"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    2,
+    3,
+    3,
+    4,
+    4,
+    5
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     false,
+     true,
+     false
+    ]
+   ],
+   "pos_src": [
+    "r",
+    "v"
+   ],
+   "pos_trg": [
+    "n",
+    "r",
+    "r",
+    "",
+    "a"
+   ],
+   "sent_src": [
+    "quickly",
+    "is"
+   ],
+   "sent_trg": [
+    "katze",
+    "不",
+    "katze",
+    "not",
+    "katze"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    1,
+    2,
+    3,
+    3,
+    4
+   ]
+  },
+  {
+   "matrix": [
+    [
+     true,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     true,
+     false,
+     true
+    ],
+    [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ]
+   ],
+   "pos_src": [
+    "",
+    "n",
+    "",
+    "n",
+    ""
+   ],
+   "pos_trg": [
+    "v",
+    "",
+    "v",
+    "r"
+   ],
+   "sent_src": [
+    "cat",
+    "nicht",
+    "n't",
+    "the",
+    "cat"
+   ],
+   "sent_trg": [
+    "ne",
+    "ない",
+    "안",
+    "rot"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    2,
+    3,
+    3,
+    4
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3
+   ]
+  },
+  {
+   "matrix": [
+    [
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true
+    ]
+   ],
+   "pos_src": [
+    "",
+    "n",
+    "",
+    "n",
+    "",
+    "r"
+   ],
+   "pos_trg": [
+    "r",
+    "r",
+    "n"
+   ],
+   "sent_src": [
+    "red",
+    "pas",
+    "pas",
+    "runs",
+    "runs",
+    "ne"
+   ],
+   "sent_trg": [
+    "not",
+    "没",
+    "die"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "",
+    "n",
+    "a",
+    "a",
+    ""
+   ],
+   "pos_trg": [
+    "r",
+    "n",
+    "n",
+    "",
+    "v"
+   ],
+   "sent_src": [
+    "pas",
+    "red",
+    "cat",
+    "cat",
+    "big"
+   ],
+   "sent_trg": [
+    "没",
+    "die",
+    "no",
+    "不",
+    "die"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3,
+    4
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4
+   ]
+  },
+  {
+   "matrix": [
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     true,
+     true,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true
+    ]
+   ],
+   "pos_src": [
+    "a",
+    "",
+    "v",
+    "n",
+    "v",
+    "n",
+    "a"
+   ],
+   "pos_trg": [
+    "v",
+    "n",
+    "v",
+    "r",
+    "r",
+    "n"
+   ],
+   "sent_src": [
+    "is",
+    "ne",
+    "not",
+    "cat",
+    "red",
+    "not",
+    "quickly"
+   ],
+   "sent_trg": [
+    "rot",
+    "ne",
+    "n't",
+    "not",
+    "ne",
+    "ない"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    2,
+    2,
+    3,
+    4,
+    4,
+    5,
+    6
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    2,
+    2,
+    3,
+    4,
+    4,
+    5
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     true,
+     false
+    ],
+    [
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false
+    ]
+   ],
+   "pos_src": [
+    "n",
+    "n",
+    ""
+   ],
+   "pos_trg": [
+    "r",
+    "v"
+   ],
+   "sent_src": [
+    "is",
+    "is",
+    "be"
+   ],
+   "sent_trg": [
+    "不",
+    "rot"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    1,
+    2,
+    2
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     true,
+     true
+    ]
+   ],
+   "pos_src": [
+    "v",
+    "a",
+    "n"
+   ],
+   "pos_trg": [
+    "r",
+    "r",
+    "a",
+    "a"
+   ],
+   "sent_src": [
+    "pas",
+    "is",
+    "nicht"
+   ],
+   "sent_trg": [
+    "no",
+    "n't",
+    "schnell",
+    "不"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3
+   ]
+  },
+  {
+   "matrix": [
+    [
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "a",
+    "r",
+    "n",
+    "n"
+   ],
+   "pos_trg": [
+    "",
+    "a"
+   ],
+   "sent_src": [
+    "pas",
+    "is",
+    "big",
+    "the"
+   ],
+   "sent_trg": [
+    "没",
+    "不"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    2,
+    2,
+    3,
+    3
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     true
+    ]
+   ],
+   "pos_src": [
+    "",
+    "",
+    "n"
+   ],
+   "pos_trg": [
+    "a",
+    "r",
+    "v"
+   ],
+   "sent_src": [
+    "runs",
+    "cat",
+    "quickly"
+   ],
+   "sent_trg": [
+    "ne",
+    "没",
+    "没"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    1,
+    2,
+    2
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    2,
+    2
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "v",
+    "r"
+   ],
+   "pos_trg": [
+    "r",
+    "a",
+    "a",
+    "a",
+    ""
+   ],
+   "sent_src": [
+    "runs",
+    "cat"
+   ],
+   "sent_trg": [
+    "pas",
+    "katze",
+    "rot",
+    "not",
+    "katze"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     false,
+     true,
+     true,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     true,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     true,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     true,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "",
+    "",
+    "v",
+    "a"
+   ],
+   "pos_trg": [
+    "v",
+    "",
+    "n",
+    "v",
+    "",
+    "n"
+   ],
+   "sent_src": [
+    "runs",
+    "pas",
+    "big",
+    "n't"
+   ],
+   "sent_trg": [
+    "not",
+    "katze",
+    "rot",
+    "pas",
+    "ない",
+    "katze"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    2,
+    2,
+    3,
+    4,
+    4,
+    5
+   ]
+  },
+  {
+   "matrix": [
+    [
+     true,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     true
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     true
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "a",
+    "a",
+    "v",
+    "r",
+    "r",
+    "",
+    "a"
+   ],
+   "pos_trg": [
+    "",
+    "n",
+    "a",
+    "v",
+    "a"
+   ],
+   "sent_src": [
+    "not",
+    "red",
+    "pas",
+    "is",
+    "ne",
+    "red",
+    "the"
+   ],
+   "sent_trg": [
+    "不",
+    "die",
+    "läuft",
+    "n't",
+    "ない"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    5,
+    6
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    3,
+    4,
+    4
+   ]
+  },
+  {
+   "matrix": [
+    [
+     true,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "",
+    "v",
+    "a",
+    "v"
+   ],
+   "pos_trg": [
+    "v",
+    "",
+    "v",
+    "r"
+   ],
+   "sent_src": [
+    "pas",
+    "be",
+    "pas",
+    "cat"
+   ],
+   "sent_trg": [
+    "katze",
+    "ない",
+    "没",
+    "ne"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    2,
+    3,
+    3
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    2,
+    3,
+    3
+   ]
+  },
+  {
+   "matrix": [
+    [
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     true,
+     false
+    ],
+    [
+     true,
+     false,
+     true
+    ]
+   ],
+   "pos_src": [
+    "a",
+    "n",
+    "r"
+   ],
+   "pos_trg": [
+    "r",
+    "n"
+   ],
+   "sent_src": [
+    "is",
+    "the",
+    "cat"
+   ],
+   "sent_trg": [
+    "katze",
+    "ne"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    2,
+    2
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "matrix": [
+    [
+     true,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     true,
+     false,
+     false
+    ],
+    [
+     true,
+     true,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     true
+    ]
+   ],
+   "pos_src": [
+    "r",
+    "v",
+    "v"
+   ],
+   "pos_trg": [
+    "n",
+    "n"
+   ],
+   "sent_src": [
+    "red",
+    "be",
+    "n't"
+   ],
+   "sent_trg": [
+    "not",
+    "没"
+   ],
+   "sub2word_map_src": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "n",
+    "v"
+   ],
+   "pos_trg": [
+    "v",
+    "a",
+    "n"
+   ],
+   "sent_src": [
+    "n't",
+    "runs"
+   ],
+   "sent_trg": [
+    "schnell",
+    "pas",
+    "ない"
+   ],
+   "sub2word_map_src": [
+    0,
+    1
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     true,
+     false,
+     false,
+     true,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     true,
+     false
+    ]
+   ],
+   "pos_src": [
+    "n",
+    ""
+   ],
+   "pos_trg": [
+    "n",
+    "v",
+    "n",
+    "a",
+    "n"
+   ],
+   "sent_src": [
+    "ne",
+    "runs"
+   ],
+   "sent_trg": [
+    "ない",
+    "katze",
+    "没",
+    "not",
+    "pas"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    1
+   ],
+   "sub2word_map_trg": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "matrix": [
+    [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ]
+   ],
+   "pos_src": [
+    "n",
+    "a"
+   ],
+   "pos_trg": [
+    "n",
+    "",
+    "",
+    "a"
+   ],
+   "sent_src": [
+    "n't",
+    "be"
+   ],
+   "sent_trg": [
+    "die",
+    "läuft",
+    "不",
+    "没"
+   ],
+   "sub2word_map_src": [
+    0,
+    1,
+    1
+   ],
+   "sub2word_map_trg": [
+    0,
+    1,
+    1,
+    2,
+    3,
+    3
+   ]
+  }
+ ],
+ "pairs": {
+  "de_en": [
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "pas"
+      ],
+      [
+       "n/n"
+      ],
+      [
+       "ne die"
+      ]
+     ],
+     [
+      [
+       "n/r/a/n/r"
+      ],
+      [
+       "cat is pas n't not"
+      ],
+      [
+       "r/v/r/v/n"
+      ],
+      [
+       "läuft no pas no 안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "cat is pas n't not",
+      "-1",
+      "läuft no pas no 안"
+     ],
+     [
+      "n",
+      "-1",
+      "cat is pas n't not",
+      "-1",
+      "läuft no pas no 안"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/r"
+      ],
+      [
+       "pas red"
+      ],
+      [
+       "r/r"
+      ],
+      [
+       "no 안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "pas red",
+      "-1",
+      "no 안"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "be"
+      ],
+      [
+       "",
+       "v"
+      ],
+      [
+       "rot",
+       "not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "be",
+      "-1",
+      "rot not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "a"
+      ],
+      [
+       "quickly",
+       "the"
+      ],
+      [
+       ""
+      ],
+      [
+       "not"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "is"
+      ],
+      [
+       "n"
+      ],
+      [
+       "die"
+      ]
+     ],
+     [
+      [
+       "v//n"
+      ],
+      [
+       "red not runs"
+      ],
+      [
+       "a/v"
+      ],
+      [
+       "no n't"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "red not runs",
+      "-1",
+      "no n't"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a/v/v/a"
+      ],
+      [
+       "the is quickly n't"
+      ],
+      [
+       "v/r"
+      ],
+      [
+       "没 ne"
+      ]
+     ],
+     [
+      [
+       "",
+       "v"
+      ],
+      [
+       "pas",
+       "quickly"
+      ],
+      [
+       "a/r"
+      ],
+      [
+       "안 schnell"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "the is quickly n't",
+      "-1",
+      "没 ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "a//n/a"
+      ],
+      [
+       "big",
+       "is the the pas"
+      ],
+      [
+       "",
+       "r/n/n"
+      ],
+      [
+       "pas",
+       "schnell schnell ない"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "big is the the pas",
+      "-1",
+      "pas schnell schnell ない"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       ""
+      ],
+      [
+       "not",
+       "big"
+      ],
+      [
+       "a/a//a"
+      ],
+      [
+       "schnell ne 안 not"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r"
+      ],
+      [
+       "cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "没"
+      ]
+     ],
+     [
+      [
+       "n/r/n"
+      ],
+      [
+       "pas quickly n't"
+      ],
+      [
+       "v/r"
+      ],
+      [
+       "ne katze"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "pas quickly n't",
+      "-1",
+      "ne katze"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "a"
+      ],
+      [
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/n/r"
+      ],
+      [
+       "quickly runs is"
+      ],
+      [
+       "v/v/n"
+      ],
+      [
+       "no katze schnell"
+      ]
+     ],
+     [
+      [
+       "r"
+      ],
+      [
+       "big"
+      ],
+      [
+       "v/r"
+      ],
+      [
+       "die pas"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "not"
+      ],
+      [
+       ""
+      ],
+      [
+       "pas"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "quickly runs is",
+      "-1",
+      "no katze schnell"
+     ],
+     [
+      "r",
+      "-1",
+      "big",
+      "-1",
+      "die pas"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "r//a"
+      ],
+      [
+       "the",
+       "is quickly be"
+      ],
+      [
+       "",
+       "v"
+      ],
+      [
+       "läuft",
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "pas"
+      ],
+      [
+       "v"
+      ],
+      [
+       "schnell"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "nicht"
+      ],
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "runs"
+      ],
+      [
+       "n"
+      ],
+      [
+       "안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "nicht",
+      "-1",
+      "ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a/v",
+       "",
+       ""
+      ],
+      [
+       "big pas",
+       "red",
+       "runs"
+      ],
+      [
+       "",
+       "a"
+      ],
+      [
+       "läuft",
+       "안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "big pas red runs",
+      "-1",
+      "läuft 안"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "a"
+      ],
+      [
+       "quickly",
+       "pas"
+      ],
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "quickly pas",
+      "-1",
+      "ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "r/n"
+      ],
+      [
+       "not",
+       "big quickly"
+      ],
+      [
+       "",
+       "r//n",
+       ""
+      ],
+      [
+       "katze",
+       "läuft rot läuft",
+       "rot"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "not big quickly",
+      "-1",
+      "katze läuft rot läuft rot"
+     ],
+     [
+      "n",
+      "-1",
+      "not big quickly",
+      "-1",
+      "katze läuft rot läuft rot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "n't"
+      ],
+      [
+       "a"
+      ],
+      [
+       "schnell"
+      ]
+     ],
+     [
+      [
+       "v/v/n/n/r"
+      ],
+      [
+       "quickly cat ne the quickly"
+      ],
+      [
+       "",
+       "",
+       "v/a/r"
+      ],
+      [
+       "pas",
+       "不",
+       "没 die die"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "n't",
+      "-1",
+      "schnell"
+     ],
+     [
+      "r",
+      "-1",
+      "quickly cat ne the quickly",
+      "-1",
+      "pas 不 没 die die"
+     ],
+     [
+      "v",
+      "-1",
+      "quickly cat ne the quickly",
+      "-1",
+      "pas 不 没 die die"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "red"
+      ],
+      [
+       ""
+      ],
+      [
+       "die"
+      ]
+     ],
+     [
+      [
+       "n/r"
+      ],
+      [
+       "quickly ne"
+      ],
+      [
+       "r/r"
+      ],
+      [
+       "没 rot"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "quickly ne",
+      "-1",
+      "没 rot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "n"
+      ],
+      [
+       "pas"
+      ]
+     ],
+     [
+      [
+       "a"
+      ],
+      [
+       "n't"
+      ],
+      [
+       "a"
+      ],
+      [
+       "rot"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "n't",
+      "-1",
+      "rot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v/a/n"
+      ],
+      [
+       "not runs runs"
+      ],
+      [
+       "v/n"
+      ],
+      [
+       "pas katze"
+      ]
+     ],
+     [
+      [
+       "n",
+       ""
+      ],
+      [
+       "quickly",
+       "quickly"
+      ],
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "not runs runs",
+      "-1",
+      "pas katze"
+     ],
+     [
+      "n",
+      "-1",
+      "not runs runs",
+      "-1",
+      "pas katze"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "v"
+      ],
+      [
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "big"
+      ],
+      [
+       "v"
+      ],
+      [
+       "no"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/v"
+      ],
+      [
+       "not is"
+      ],
+      [
+       "n/v/r/n"
+      ],
+      [
+       "läuft 不 pas rot"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "not is",
+      "-1",
+      "läuft 不 pas rot"
+     ],
+     [
+      "v",
+      "-1",
+      "not is",
+      "-1",
+      "läuft 不 pas rot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "red"
+      ],
+      [
+       "n"
+      ],
+      [
+       "ne"
+      ]
+     ],
+     [
+      [
+       "a/v/r"
+      ],
+      [
+       "pas is be"
+      ],
+      [
+       "a",
+       ""
+      ],
+      [
+       "pas",
+       "schnell"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "pas is be",
+      "-1",
+      "pas schnell"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/n",
+       ""
+      ],
+      [
+       "quickly big",
+       "n't"
+      ],
+      [
+       ""
+      ],
+      [
+       "no"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "n"
+      ],
+      [
+       "big",
+       "be"
+      ],
+      [
+       "a/a"
+      ],
+      [
+       "不 rot"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v/a"
+      ],
+      [
+       "runs cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "ない"
+      ]
+     ],
+     [
+      [
+       "",
+       "",
+       "a/a/n"
+      ],
+      [
+       "n't",
+       "is",
+       "big runs n't"
+      ],
+      [
+       "a/r/a/v/a/r"
+      ],
+      [
+       "rot 没 rot 没 rot not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "n't is big runs n't",
+      "-1",
+      "rot 没 rot 没 rot not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "quickly"
+      ],
+      [
+       "a"
+      ],
+      [
+       "n't"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "is"
+      ],
+      [
+       ""
+      ],
+      [
+       "die"
+      ]
+     ],
+     [
+      [
+       "n/v//v"
+      ],
+      [
+       "be red not is"
+      ],
+      [
+       "v"
+      ],
+      [
+       "안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "be red not is",
+      "-1",
+      "안"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/v/n/a/r"
+      ],
+      [
+       "be red red cat is"
+      ],
+      [
+       "n",
+       ""
+      ],
+      [
+       "ない",
+       "pas"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "be red red cat is",
+      "-1",
+      "ない pas"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "",
+       "n"
+      ],
+      [
+       "red",
+       "pas",
+       "runs"
+      ],
+      [
+       "r"
+      ],
+      [
+       "not"
+      ]
+     ],
+     [
+      [
+       "r"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "n"
+      ],
+      [
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "a/a"
+      ],
+      [
+       "pas",
+       "cat cat"
+      ],
+      [
+       "n//v"
+      ],
+      [
+       "no 不 die"
+      ]
+     ],
+     [
+      [
+       "n",
+       ""
+      ],
+      [
+       "red",
+       "big"
+      ],
+      [
+       "r"
+      ],
+      [
+       "没"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a/n"
+      ],
+      [
+       "is not"
+      ],
+      [
+       "v"
+      ],
+      [
+       "rot"
+      ]
+     ],
+     [
+      [
+       "v"
+      ],
+      [
+       "not"
+      ],
+      [
+       "v/n"
+      ],
+      [
+       "n't ない"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "not",
+      "-1",
+      "n't ない"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/n"
+      ],
+      [
+       "is is"
+      ],
+      [
+       "v"
+      ],
+      [
+       "rot"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "be"
+      ],
+      [
+       "r"
+      ],
+      [
+       "不"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "is"
+      ],
+      [
+       "r/r"
+      ],
+      [
+       "no n't"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "pas"
+      ],
+      [
+       ""
+      ],
+      [
+       "没"
+      ]
+     ],
+     [
+      [
+       "r/n"
+      ],
+      [
+       "is the"
+      ],
+      [
+       "a"
+      ],
+      [
+       "不"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "n"
+      ],
+      [
+       "cat",
+       "quickly"
+      ],
+      [
+       "a/r/v"
+      ],
+      [
+       "ne 没 没"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "runs"
+      ],
+      [
+       "a/a"
+      ],
+      [
+       "katze rot"
+      ]
+     ],
+     [
+      [
+       "r"
+      ],
+      [
+       "cat"
+      ],
+      [
+       "r"
+      ],
+      [
+       "pas"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "cat",
+      "-1",
+      "pas"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "big"
+      ],
+      [
+       "v"
+      ],
+      [
+       "not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "big",
+      "-1",
+      "not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "v/a"
+      ],
+      [
+       "pas",
+       "be pas"
+      ],
+      [
+       "v/v/r"
+      ],
+      [
+       "katze 没 ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "pas be pas",
+      "-1",
+      "katze 没 ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "is"
+      ],
+      [
+       "r"
+      ],
+      [
+       "katze"
+      ]
+     ],
+     [
+      [
+       "n/r"
+      ],
+      [
+       "the cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "the cat",
+      "-1",
+      "ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "a"
+      ],
+      [
+       "not"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n"
+      ],
+      [
+       "n't"
+      ],
+      [
+       ""
+      ],
+      [
+       "läuft"
+      ]
+     ],
+     [
+      [
+       "a"
+      ],
+      [
+       "be"
+      ],
+      [
+       "n//a"
+      ],
+      [
+       "die 不 没"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "be",
+      "-1",
+      "die 不 没"
+     ]
+    ]
+   }
+  ],
+  "en_es": [
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "be"
+      ],
+      [
+       "",
+       "v"
+      ],
+      [
+       "rot",
+       "not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "be",
+      "-1",
+      "rot not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "a"
+      ],
+      [
+       "quickly",
+       "the"
+      ],
+      [
+       ""
+      ],
+      [
+       "not"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "is"
+      ],
+      [
+       "n"
+      ],
+      [
+       "die"
+      ]
+     ],
+     [
+      [
+       "",
+       "r"
+      ],
+      [
+       "the",
+       "quickly"
+      ],
+      [
+       "a/v"
+      ],
+      [
+       "rot die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a/v/v/a"
+      ],
+      [
+       "the is quickly n't"
+      ],
+      [
+       "v/r"
+      ],
+      [
+       "没 ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "the is quickly n't",
+      "-1",
+      "没 ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "a//n/a"
+      ],
+      [
+       "big",
+       "is the the pas"
+      ],
+      [
+       "",
+       "r/n/n"
+      ],
+      [
+       "pas",
+       "schnell schnell ない"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "big is the the pas",
+      "-1",
+      "pas schnell schnell ない"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/n/a"
+      ],
+      [
+       "nicht quickly pas"
+      ],
+      [
+       "v/r/v"
+      ],
+      [
+       "läuft katze 没"
+      ]
+     ],
+     [
+      [
+       "n"
+      ],
+      [
+       "cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "cat",
+      "-1",
+      "not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r"
+      ],
+      [
+       "cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "没"
+      ]
+     ],
+     [
+      [
+       "n/r/n"
+      ],
+      [
+       "pas quickly n't"
+      ],
+      [
+       "v/r"
+      ],
+      [
+       "ne katze"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "pas quickly n't",
+      "-1",
+      "ne katze"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "a"
+      ],
+      [
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r"
+      ],
+      [
+       "big"
+      ],
+      [
+       "v/r"
+      ],
+      [
+       "die pas"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "not"
+      ],
+      [
+       ""
+      ],
+      [
+       "pas"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "big",
+      "-1",
+      "die pas"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "r//a"
+      ],
+      [
+       "the",
+       "is quickly be"
+      ],
+      [
+       "",
+       "v"
+      ],
+      [
+       "läuft",
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "nicht"
+      ],
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "runs"
+      ],
+      [
+       "n"
+      ],
+      [
+       "안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "nicht",
+      "-1",
+      "ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a/v",
+       "",
+       ""
+      ],
+      [
+       "big pas",
+       "red",
+       "runs"
+      ],
+      [
+       "",
+       "a"
+      ],
+      [
+       "läuft",
+       "안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "big pas red runs",
+      "-1",
+      "läuft 안"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/v/a/v"
+      ],
+      [
+       "quickly is cat red"
+      ],
+      [
+       "",
+       "a/r/n",
+       ""
+      ],
+      [
+       "pas",
+       "katze pas not",
+       "不"
+      ]
+     ],
+     [
+      [
+       "",
+       "a"
+      ],
+      [
+       "quickly",
+       "pas"
+      ],
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "quickly is cat red",
+      "-1",
+      "pas katze pas not 不"
+     ],
+     [
+      "a",
+      "-1",
+      "quickly is cat red",
+      "-1",
+      "pas katze pas not 不"
+     ],
+     [
+      "a",
+      "-1",
+      "quickly pas",
+      "-1",
+      "ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a/v/v"
+      ],
+      [
+       "red is quickly"
+      ],
+      [
+       "a/a/r"
+      ],
+      [
+       "不 rot not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "red is quickly",
+      "-1",
+      "不 rot not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "n't"
+      ],
+      [
+       "a"
+      ],
+      [
+       "schnell"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "n't",
+      "-1",
+      "schnell"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "red"
+      ],
+      [
+       ""
+      ],
+      [
+       "die"
+      ]
+     ],
+     [
+      [
+       "n/r"
+      ],
+      [
+       "quickly ne"
+      ],
+      [
+       "r/r"
+      ],
+      [
+       "没 rot"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "quickly ne",
+      "-1",
+      "没 rot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "n't"
+      ],
+      [
+       "a"
+      ],
+      [
+       "rot"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "n't",
+      "-1",
+      "rot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n",
+       ""
+      ],
+      [
+       "quickly",
+       "quickly"
+      ],
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "v"
+      ],
+      [
+       "die"
+      ]
+     ],
+     [
+      [
+       "a//a/a"
+      ],
+      [
+       "nicht cat the quickly"
+      ],
+      [
+       "v/n"
+      ],
+      [
+       "schnell die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a",
+       ""
+      ],
+      [
+       "nicht",
+       "nicht"
+      ],
+      [
+       "v/v"
+      ],
+      [
+       "ne n't"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n",
+       ""
+      ],
+      [
+       "be",
+       "cat"
+      ],
+      [
+       "r/a/v/v/n"
+      ],
+      [
+       "schnell 没 rot not ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "be cat",
+      "-1",
+      "schnell 没 rot not ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "big"
+      ],
+      [
+       "v"
+      ],
+      [
+       "no"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "red"
+      ],
+      [
+       "n"
+      ],
+      [
+       "ne"
+      ]
+     ],
+     [
+      [
+       "a/v/r"
+      ],
+      [
+       "pas is be"
+      ],
+      [
+       "a",
+       ""
+      ],
+      [
+       "pas",
+       "schnell"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "pas is be",
+      "-1",
+      "pas schnell"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/n",
+       ""
+      ],
+      [
+       "quickly big",
+       "n't"
+      ],
+      [
+       ""
+      ],
+      [
+       "no"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/a"
+      ],
+      [
+       "runs not"
+      ],
+      [
+       "",
+       "n/a/n",
+       ""
+      ],
+      [
+       "rot",
+       "n't 不 die",
+       "ない"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "runs not",
+      "-1",
+      "rot n't 不 die ない"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "is"
+      ],
+      [
+       ""
+      ],
+      [
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "n",
+       "",
+       ""
+      ],
+      [
+       "nicht",
+       "nicht",
+       "red",
+       "quickly"
+      ],
+      [
+       "r/a/n/r/n/a"
+      ],
+      [
+       "rot läuft 안 안 läuft n't"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "nicht nicht red",
+      "-1",
+      "rot läuft 안 안 läuft n't"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/v/n/a/r"
+      ],
+      [
+       "be red red cat is"
+      ],
+      [
+       "n",
+       ""
+      ],
+      [
+       "ない",
+       "pas"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "be red red cat is",
+      "-1",
+      "ない pas"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/v"
+      ],
+      [
+       "quickly is"
+      ],
+      [
+       "r//a"
+      ],
+      [
+       "不 not katze"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "quickly is",
+      "-1",
+      "不 not katze"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "",
+       "n"
+      ],
+      [
+       "red",
+       "pas",
+       "runs"
+      ],
+      [
+       "r"
+      ],
+      [
+       "not"
+      ]
+     ],
+     [
+      [
+       "r"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "n"
+      ],
+      [
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n",
+       ""
+      ],
+      [
+       "red",
+       "big"
+      ],
+      [
+       "r"
+      ],
+      [
+       "没"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a/n"
+      ],
+      [
+       "is not"
+      ],
+      [
+       "v"
+      ],
+      [
+       "rot"
+      ]
+     ],
+     [
+      [
+       "v"
+      ],
+      [
+       "not"
+      ],
+      [
+       "v/n"
+      ],
+      [
+       "n't ない"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "not",
+      "-1",
+      "n't ない"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/n"
+      ],
+      [
+       "is is"
+      ],
+      [
+       "v"
+      ],
+      [
+       "rot"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "be"
+      ],
+      [
+       "r"
+      ],
+      [
+       "不"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v/n"
+      ],
+      [
+       "pas nicht"
+      ],
+      [
+       "a/a"
+      ],
+      [
+       "schnell 不"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "pas"
+      ],
+      [
+       ""
+      ],
+      [
+       "没"
+      ]
+     ],
+     [
+      [
+       "r/n"
+      ],
+      [
+       "is the"
+      ],
+      [
+       "a"
+      ],
+      [
+       "不"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "n"
+      ],
+      [
+       "cat",
+       "quickly"
+      ],
+      [
+       "a/r/v"
+      ],
+      [
+       "ne 没 没"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "runs"
+      ],
+      [
+       "a/a"
+      ],
+      [
+       "katze rot"
+      ]
+     ],
+     [
+      [
+       "r"
+      ],
+      [
+       "cat"
+      ],
+      [
+       "r"
+      ],
+      [
+       "pas"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "cat",
+      "-1",
+      "pas"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "",
+       "a"
+      ],
+      [
+       "runs",
+       "pas",
+       "n't"
+      ],
+      [
+       "",
+       "n/v//n"
+      ],
+      [
+       "katze",
+       "rot pas ない katze"
+      ]
+     ],
+     [
+      [
+       "v"
+      ],
+      [
+       "big"
+      ],
+      [
+       "v"
+      ],
+      [
+       "not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "big",
+      "-1",
+      "not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "v/a"
+      ],
+      [
+       "pas",
+       "be pas"
+      ],
+      [
+       "v/v/r"
+      ],
+      [
+       "katze 没 ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "pas be pas",
+      "-1",
+      "katze 没 ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "is"
+      ],
+      [
+       "r"
+      ],
+      [
+       "katze"
+      ]
+     ],
+     [
+      [
+       "n/r"
+      ],
+      [
+       "the cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "the cat",
+      "-1",
+      "ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/v/v"
+      ],
+      [
+       "red be n't"
+      ],
+      [
+       "n/n"
+      ],
+      [
+       "not 没"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "a"
+      ],
+      [
+       "not"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "runs"
+      ],
+      [
+       "v/n/n"
+      ],
+      [
+       "katze 没 pas"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n"
+      ],
+      [
+       "n't"
+      ],
+      [
+       ""
+      ],
+      [
+       "läuft"
+      ]
+     ]
+    ],
+    "relations": []
+   }
+  ],
+  "en_fr": [
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "pas"
+      ],
+      [
+       "n/n"
+      ],
+      [
+       "ne die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/r"
+      ],
+      [
+       "pas red"
+      ],
+      [
+       "r/r"
+      ],
+      [
+       "no 안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "pas red",
+      "-1",
+      "no 안"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "be"
+      ],
+      [
+       "",
+       "v"
+      ],
+      [
+       "rot",
+       "not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "be",
+      "-1",
+      "rot not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "a"
+      ],
+      [
+       "quickly",
+       "the"
+      ],
+      [
+       ""
+      ],
+      [
+       "not"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "is"
+      ],
+      [
+       "n"
+      ],
+      [
+       "die"
+      ]
+     ],
+     [
+      [
+       "v//n"
+      ],
+      [
+       "red not runs"
+      ],
+      [
+       "a/v"
+      ],
+      [
+       "no n't"
+      ]
+     ],
+     [
+      [
+       "",
+       "r"
+      ],
+      [
+       "the",
+       "quickly"
+      ],
+      [
+       "a/v"
+      ],
+      [
+       "rot die"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "red not runs",
+      "-1",
+      "no n't"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a/v/v/a"
+      ],
+      [
+       "the is quickly n't"
+      ],
+      [
+       "v/r"
+      ],
+      [
+       "没 ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "the is quickly n't",
+      "-1",
+      "没 ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/n/a"
+      ],
+      [
+       "nicht quickly pas"
+      ],
+      [
+       "v/r/v"
+      ],
+      [
+       "läuft katze 没"
+      ]
+     ],
+     [
+      [
+       "n"
+      ],
+      [
+       "cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "cat",
+      "-1",
+      "not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r"
+      ],
+      [
+       "cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "没"
+      ]
+     ],
+     [
+      [
+       "n/r/n"
+      ],
+      [
+       "pas quickly n't"
+      ],
+      [
+       "v/r"
+      ],
+      [
+       "ne katze"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "pas quickly n't",
+      "-1",
+      "ne katze"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "a"
+      ],
+      [
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "not"
+      ],
+      [
+       ""
+      ],
+      [
+       "pas"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "r//a"
+      ],
+      [
+       "the",
+       "is quickly be"
+      ],
+      [
+       "",
+       "v"
+      ],
+      [
+       "läuft",
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v/r"
+      ],
+      [
+       "be n't"
+      ],
+      [
+       "",
+       "n/n"
+      ],
+      [
+       "not",
+       "no not"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "nicht"
+      ],
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "runs"
+      ],
+      [
+       "n"
+      ],
+      [
+       "안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "nicht",
+      "-1",
+      "ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a/v",
+       "",
+       ""
+      ],
+      [
+       "big pas",
+       "red",
+       "runs"
+      ],
+      [
+       "",
+       "a"
+      ],
+      [
+       "läuft",
+       "안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "big pas red runs",
+      "-1",
+      "läuft 안"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a/v/v"
+      ],
+      [
+       "red is quickly"
+      ],
+      [
+       "a/a/r"
+      ],
+      [
+       "不 rot not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "red is quickly",
+      "-1",
+      "不 rot not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "n't"
+      ],
+      [
+       "a"
+      ],
+      [
+       "schnell"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "n't",
+      "-1",
+      "schnell"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "red"
+      ],
+      [
+       ""
+      ],
+      [
+       "die"
+      ]
+     ],
+     [
+      [
+       "n/r"
+      ],
+      [
+       "quickly ne"
+      ],
+      [
+       "r/r"
+      ],
+      [
+       "没 rot"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "quickly ne",
+      "-1",
+      "没 rot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "n't"
+      ],
+      [
+       "a"
+      ],
+      [
+       "rot"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "n't",
+      "-1",
+      "rot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n",
+       ""
+      ],
+      [
+       "quickly",
+       "quickly"
+      ],
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "v"
+      ],
+      [
+       "die"
+      ]
+     ],
+     [
+      [
+       "a//a/a"
+      ],
+      [
+       "nicht cat the quickly"
+      ],
+      [
+       "v/n"
+      ],
+      [
+       "schnell die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "big"
+      ],
+      [
+       "v"
+      ],
+      [
+       "no"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "red"
+      ],
+      [
+       "n"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/n",
+       ""
+      ],
+      [
+       "quickly big",
+       "n't"
+      ],
+      [
+       ""
+      ],
+      [
+       "no"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/a"
+      ],
+      [
+       "runs not"
+      ],
+      [
+       "",
+       "n/a/n",
+       ""
+      ],
+      [
+       "rot",
+       "n't 不 die",
+       "ない"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "runs not",
+      "-1",
+      "rot n't 不 die ない"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "is"
+      ],
+      [
+       ""
+      ],
+      [
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "n",
+       "",
+       ""
+      ],
+      [
+       "nicht",
+       "nicht",
+       "red",
+       "quickly"
+      ],
+      [
+       "r/a/n/r/n/a"
+      ],
+      [
+       "rot läuft 안 안 läuft n't"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "nicht nicht red",
+      "-1",
+      "rot läuft 안 안 läuft n't"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/v"
+      ],
+      [
+       "quickly is"
+      ],
+      [
+       "r//a"
+      ],
+      [
+       "不 not katze"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "quickly is",
+      "-1",
+      "不 not katze"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "",
+       "n"
+      ],
+      [
+       "red",
+       "pas",
+       "runs"
+      ],
+      [
+       "r"
+      ],
+      [
+       "not"
+      ]
+     ],
+     [
+      [
+       "r"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "n"
+      ],
+      [
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "a/a"
+      ],
+      [
+       "pas",
+       "cat cat"
+      ],
+      [
+       "n//v"
+      ],
+      [
+       "no 不 die"
+      ]
+     ],
+     [
+      [
+       "n",
+       ""
+      ],
+      [
+       "red",
+       "big"
+      ],
+      [
+       "r"
+      ],
+      [
+       "没"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "not"
+      ],
+      [
+       "v/n"
+      ],
+      [
+       "n't ない"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "not",
+      "-1",
+      "n't ない"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/n"
+      ],
+      [
+       "is is"
+      ],
+      [
+       "v"
+      ],
+      [
+       "rot"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "be"
+      ],
+      [
+       "r"
+      ],
+      [
+       "不"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v/n"
+      ],
+      [
+       "pas nicht"
+      ],
+      [
+       "a/a"
+      ],
+      [
+       "schnell 不"
+      ]
+     ],
+     [
+      [
+       "a"
+      ],
+      [
+       "is"
+      ],
+      [
+       "r/r"
+      ],
+      [
+       "no n't"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "pas"
+      ],
+      [
+       ""
+      ],
+      [
+       "没"
+      ]
+     ],
+     [
+      [
+       "r/n"
+      ],
+      [
+       "is the"
+      ],
+      [
+       "a"
+      ],
+      [
+       "不"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "n"
+      ],
+      [
+       "cat",
+       "quickly"
+      ],
+      [
+       "a/r/v"
+      ],
+      [
+       "ne 没 没"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r"
+      ],
+      [
+       "cat"
+      ],
+      [
+       "r"
+      ],
+      [
+       "pas"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "cat",
+      "-1",
+      "pas"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "big"
+      ],
+      [
+       "v"
+      ],
+      [
+       "not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "big",
+      "-1",
+      "not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/r"
+      ],
+      [
+       "the cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "the cat",
+      "-1",
+      "ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/v/v"
+      ],
+      [
+       "red be n't"
+      ],
+      [
+       "n/n"
+      ],
+      [
+       "not 没"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "a"
+      ],
+      [
+       "not"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "runs"
+      ],
+      [
+       "v/n/n"
+      ],
+      [
+       "katze 没 pas"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n"
+      ],
+      [
+       "n't"
+      ],
+      [
+       ""
+      ],
+      [
+       "läuft"
+      ]
+     ]
+    ],
+    "relations": []
+   }
+  ],
+  "en_it": [
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "pas"
+      ],
+      [
+       "n/n"
+      ],
+      [
+       "ne die"
+      ]
+     ],
+     [
+      [
+       "n/r/a/n/r"
+      ],
+      [
+       "cat is pas n't not"
+      ],
+      [
+       "r/v/r/v/n"
+      ],
+      [
+       "läuft no pas no 안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "cat is pas n't not",
+      "-1",
+      "läuft no pas no 안"
+     ],
+     [
+      "n",
+      "-1",
+      "cat is pas n't not",
+      "-1",
+      "läuft no pas no 안"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/r"
+      ],
+      [
+       "pas red"
+      ],
+      [
+       "r/r"
+      ],
+      [
+       "no 안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "pas red",
+      "-1",
+      "no 안"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "be"
+      ],
+      [
+       "",
+       "v"
+      ],
+      [
+       "rot",
+       "not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "be",
+      "-1",
+      "rot not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "a"
+      ],
+      [
+       "quickly",
+       "the"
+      ],
+      [
+       ""
+      ],
+      [
+       "not"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "is"
+      ],
+      [
+       "n"
+      ],
+      [
+       "die"
+      ]
+     ],
+     [
+      [
+       "v//n"
+      ],
+      [
+       "red not runs"
+      ],
+      [
+       "a/v"
+      ],
+      [
+       "no n't"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "red not runs",
+      "-1",
+      "no n't"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a/v/v/a"
+      ],
+      [
+       "the is quickly n't"
+      ],
+      [
+       "v/r"
+      ],
+      [
+       "没 ne"
+      ]
+     ],
+     [
+      [
+       "",
+       "v"
+      ],
+      [
+       "pas",
+       "quickly"
+      ],
+      [
+       "a/r"
+      ],
+      [
+       "안 schnell"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "the is quickly n't",
+      "-1",
+      "没 ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "a//n/a"
+      ],
+      [
+       "big",
+       "is the the pas"
+      ],
+      [
+       "",
+       "r/n/n"
+      ],
+      [
+       "pas",
+       "schnell schnell ない"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "big is the the pas",
+      "-1",
+      "pas schnell schnell ない"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       ""
+      ],
+      [
+       "not",
+       "big"
+      ],
+      [
+       "a/a//a"
+      ],
+      [
+       "schnell ne 안 not"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r"
+      ],
+      [
+       "cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "没"
+      ]
+     ],
+     [
+      [
+       "n/r/n"
+      ],
+      [
+       "pas quickly n't"
+      ],
+      [
+       "v/r"
+      ],
+      [
+       "ne katze"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "pas quickly n't",
+      "-1",
+      "ne katze"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "a"
+      ],
+      [
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/n/r"
+      ],
+      [
+       "quickly runs is"
+      ],
+      [
+       "v/v/n"
+      ],
+      [
+       "no katze schnell"
+      ]
+     ],
+     [
+      [
+       "r"
+      ],
+      [
+       "big"
+      ],
+      [
+       "v/r"
+      ],
+      [
+       "die pas"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "not"
+      ],
+      [
+       ""
+      ],
+      [
+       "pas"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "quickly runs is",
+      "-1",
+      "no katze schnell"
+     ],
+     [
+      "r",
+      "-1",
+      "big",
+      "-1",
+      "die pas"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "r//a"
+      ],
+      [
+       "the",
+       "is quickly be"
+      ],
+      [
+       "",
+       "v"
+      ],
+      [
+       "läuft",
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "pas"
+      ],
+      [
+       "v"
+      ],
+      [
+       "schnell"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "nicht"
+      ],
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "runs"
+      ],
+      [
+       "n"
+      ],
+      [
+       "안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "nicht",
+      "-1",
+      "ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a/v",
+       "",
+       ""
+      ],
+      [
+       "big pas",
+       "red",
+       "runs"
+      ],
+      [
+       "",
+       "a"
+      ],
+      [
+       "läuft",
+       "안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "big pas red runs",
+      "-1",
+      "läuft 안"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "a"
+      ],
+      [
+       "quickly",
+       "pas"
+      ],
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "quickly pas",
+      "-1",
+      "ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "r/n"
+      ],
+      [
+       "not",
+       "big quickly"
+      ],
+      [
+       "",
+       "r//n",
+       ""
+      ],
+      [
+       "katze",
+       "läuft rot läuft",
+       "rot"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "not big quickly",
+      "-1",
+      "katze läuft rot läuft rot"
+     ],
+     [
+      "n",
+      "-1",
+      "not big quickly",
+      "-1",
+      "katze läuft rot läuft rot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "n't"
+      ],
+      [
+       "a"
+      ],
+      [
+       "schnell"
+      ]
+     ],
+     [
+      [
+       "v/v/n/n/r"
+      ],
+      [
+       "quickly cat ne the quickly"
+      ],
+      [
+       "",
+       "",
+       "v/a/r"
+      ],
+      [
+       "pas",
+       "不",
+       "没 die die"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "n't",
+      "-1",
+      "schnell"
+     ],
+     [
+      "r",
+      "-1",
+      "quickly cat ne the quickly",
+      "-1",
+      "pas 不 没 die die"
+     ],
+     [
+      "v",
+      "-1",
+      "quickly cat ne the quickly",
+      "-1",
+      "pas 不 没 die die"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "red"
+      ],
+      [
+       ""
+      ],
+      [
+       "die"
+      ]
+     ],
+     [
+      [
+       "n/r"
+      ],
+      [
+       "quickly ne"
+      ],
+      [
+       "r/r"
+      ],
+      [
+       "没 rot"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "quickly ne",
+      "-1",
+      "没 rot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "n"
+      ],
+      [
+       "pas"
+      ]
+     ],
+     [
+      [
+       "a"
+      ],
+      [
+       "n't"
+      ],
+      [
+       "a"
+      ],
+      [
+       "rot"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "n't",
+      "-1",
+      "rot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v/a/n"
+      ],
+      [
+       "not runs runs"
+      ],
+      [
+       "v/n"
+      ],
+      [
+       "pas katze"
+      ]
+     ],
+     [
+      [
+       "n",
+       ""
+      ],
+      [
+       "quickly",
+       "quickly"
+      ],
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "not runs runs",
+      "-1",
+      "pas katze"
+     ],
+     [
+      "n",
+      "-1",
+      "not runs runs",
+      "-1",
+      "pas katze"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "v"
+      ],
+      [
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "big"
+      ],
+      [
+       "v"
+      ],
+      [
+       "no"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/v"
+      ],
+      [
+       "not is"
+      ],
+      [
+       "n/v/r/n"
+      ],
+      [
+       "läuft 不 pas rot"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "not is",
+      "-1",
+      "läuft 不 pas rot"
+     ],
+     [
+      "v",
+      "-1",
+      "not is",
+      "-1",
+      "läuft 不 pas rot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "red"
+      ],
+      [
+       "n"
+      ],
+      [
+       "ne"
+      ]
+     ],
+     [
+      [
+       "a/v/r"
+      ],
+      [
+       "pas is be"
+      ],
+      [
+       "a",
+       ""
+      ],
+      [
+       "pas",
+       "schnell"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "pas is be",
+      "-1",
+      "pas schnell"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/n",
+       ""
+      ],
+      [
+       "quickly big",
+       "n't"
+      ],
+      [
+       ""
+      ],
+      [
+       "no"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "n"
+      ],
+      [
+       "big",
+       "be"
+      ],
+      [
+       "a/a"
+      ],
+      [
+       "不 rot"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v/a"
+      ],
+      [
+       "runs cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "ない"
+      ]
+     ],
+     [
+      [
+       "",
+       "",
+       "a/a/n"
+      ],
+      [
+       "n't",
+       "is",
+       "big runs n't"
+      ],
+      [
+       "a/r/a/v/a/r"
+      ],
+      [
+       "rot 没 rot 没 rot not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "n't is big runs n't",
+      "-1",
+      "rot 没 rot 没 rot not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "quickly"
+      ],
+      [
+       "a"
+      ],
+      [
+       "n't"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "is"
+      ],
+      [
+       ""
+      ],
+      [
+       "die"
+      ]
+     ],
+     [
+      [
+       "n/v//v"
+      ],
+      [
+       "be red not is"
+      ],
+      [
+       "v"
+      ],
+      [
+       "안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "be red not is",
+      "-1",
+      "안"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/v/n/a/r"
+      ],
+      [
+       "be red red cat is"
+      ],
+      [
+       "n",
+       ""
+      ],
+      [
+       "ない",
+       "pas"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "be red red cat is",
+      "-1",
+      "ない pas"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "",
+       "n"
+      ],
+      [
+       "red",
+       "pas",
+       "runs"
+      ],
+      [
+       "r"
+      ],
+      [
+       "not"
+      ]
+     ],
+     [
+      [
+       "r"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "n"
+      ],
+      [
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "a/a"
+      ],
+      [
+       "pas",
+       "cat cat"
+      ],
+      [
+       "n//v"
+      ],
+      [
+       "no 不 die"
+      ]
+     ],
+     [
+      [
+       "n",
+       ""
+      ],
+      [
+       "red",
+       "big"
+      ],
+      [
+       "r"
+      ],
+      [
+       "没"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a/n"
+      ],
+      [
+       "is not"
+      ],
+      [
+       "v"
+      ],
+      [
+       "rot"
+      ]
+     ],
+     [
+      [
+       "v"
+      ],
+      [
+       "not"
+      ],
+      [
+       "v/n"
+      ],
+      [
+       "n't ない"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "not",
+      "-1",
+      "n't ない"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/n"
+      ],
+      [
+       "is is"
+      ],
+      [
+       "v"
+      ],
+      [
+       "rot"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "be"
+      ],
+      [
+       "r"
+      ],
+      [
+       "不"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "is"
+      ],
+      [
+       "r/r"
+      ],
+      [
+       "no n't"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "pas"
+      ],
+      [
+       ""
+      ],
+      [
+       "没"
+      ]
+     ],
+     [
+      [
+       "r/n"
+      ],
+      [
+       "is the"
+      ],
+      [
+       "a"
+      ],
+      [
+       "不"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "n"
+      ],
+      [
+       "cat",
+       "quickly"
+      ],
+      [
+       "a/r/v"
+      ],
+      [
+       "ne 没 没"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "runs"
+      ],
+      [
+       "a/a"
+      ],
+      [
+       "katze rot"
+      ]
+     ],
+     [
+      [
+       "r"
+      ],
+      [
+       "cat"
+      ],
+      [
+       "r"
+      ],
+      [
+       "pas"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "cat",
+      "-1",
+      "pas"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "big"
+      ],
+      [
+       "v"
+      ],
+      [
+       "not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "big",
+      "-1",
+      "not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "v/a"
+      ],
+      [
+       "pas",
+       "be pas"
+      ],
+      [
+       "v/v/r"
+      ],
+      [
+       "katze 没 ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "pas be pas",
+      "-1",
+      "katze 没 ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "is"
+      ],
+      [
+       "r"
+      ],
+      [
+       "katze"
+      ]
+     ],
+     [
+      [
+       "n/r"
+      ],
+      [
+       "the cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "the cat",
+      "-1",
+      "ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "a"
+      ],
+      [
+       "not"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n"
+      ],
+      [
+       "n't"
+      ],
+      [
+       ""
+      ],
+      [
+       "läuft"
+      ]
+     ],
+     [
+      [
+       "a"
+      ],
+      [
+       "be"
+      ],
+      [
+       "n//a"
+      ],
+      [
+       "die 不 没"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "be",
+      "-1",
+      "die 不 没"
+     ]
+    ]
+   }
+  ],
+  "en_ko": [
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "pas"
+      ],
+      [
+       "n/n"
+      ],
+      [
+       "ne die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/r"
+      ],
+      [
+       "pas red"
+      ],
+      [
+       "r/r"
+      ],
+      [
+       "no 안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "pas red",
+      "-1",
+      "no 안"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "be"
+      ],
+      [
+       "",
+       "v"
+      ],
+      [
+       "rot",
+       "not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "be",
+      "-1",
+      "rot not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "is"
+      ],
+      [
+       "n"
+      ],
+      [
+       "die"
+      ]
+     ],
+     [
+      [
+       "v//n"
+      ],
+      [
+       "red not runs"
+      ],
+      [
+       "a/v"
+      ],
+      [
+       "no n't"
+      ]
+     ],
+     [
+      [
+       "",
+       "r"
+      ],
+      [
+       "the",
+       "quickly"
+      ],
+      [
+       "a/v"
+      ],
+      [
+       "rot die"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "red not runs",
+      "-1",
+      "no n't"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "a//n/a"
+      ],
+      [
+       "big",
+       "is the the pas"
+      ],
+      [
+       "",
+       "r/n/n"
+      ],
+      [
+       "pas",
+       "schnell schnell ない"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "big is the the pas",
+      "-1",
+      "pas schnell schnell ない"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/n/a"
+      ],
+      [
+       "nicht quickly pas"
+      ],
+      [
+       "v/r/v"
+      ],
+      [
+       "läuft katze 没"
+      ]
+     ],
+     [
+      [
+       "n"
+      ],
+      [
+       "cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "cat",
+      "-1",
+      "not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r"
+      ],
+      [
+       "cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "没"
+      ]
+     ],
+     [
+      [
+       "n/r/n"
+      ],
+      [
+       "pas quickly n't"
+      ],
+      [
+       "v/r"
+      ],
+      [
+       "ne katze"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "pas quickly n't",
+      "-1",
+      "ne katze"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "a"
+      ],
+      [
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r"
+      ],
+      [
+       "big"
+      ],
+      [
+       "v/r"
+      ],
+      [
+       "die pas"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "not"
+      ],
+      [
+       ""
+      ],
+      [
+       "pas"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "big",
+      "-1",
+      "die pas"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "r//a"
+      ],
+      [
+       "the",
+       "is quickly be"
+      ],
+      [
+       "",
+       "v"
+      ],
+      [
+       "läuft",
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v/r"
+      ],
+      [
+       "be n't"
+      ],
+      [
+       "",
+       "n/n"
+      ],
+      [
+       "not",
+       "no not"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "nicht"
+      ],
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "runs"
+      ],
+      [
+       "n"
+      ],
+      [
+       "안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "nicht",
+      "-1",
+      "ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a/v",
+       "",
+       ""
+      ],
+      [
+       "big pas",
+       "red",
+       "runs"
+      ],
+      [
+       "",
+       "a"
+      ],
+      [
+       "läuft",
+       "안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "big pas red runs",
+      "-1",
+      "läuft 안"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "a"
+      ],
+      [
+       "quickly",
+       "pas"
+      ],
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "quickly pas",
+      "-1",
+      "ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a/v/v"
+      ],
+      [
+       "red is quickly"
+      ],
+      [
+       "a/a/r"
+      ],
+      [
+       "不 rot not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "red is quickly",
+      "-1",
+      "不 rot not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "n't"
+      ],
+      [
+       "a"
+      ],
+      [
+       "schnell"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "n't",
+      "-1",
+      "schnell"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "red"
+      ],
+      [
+       ""
+      ],
+      [
+       "die"
+      ]
+     ],
+     [
+      [
+       "n/r"
+      ],
+      [
+       "quickly ne"
+      ],
+      [
+       "r/r"
+      ],
+      [
+       "没 rot"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "quickly ne",
+      "-1",
+      "没 rot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "n't"
+      ],
+      [
+       "a"
+      ],
+      [
+       "rot"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "n't",
+      "-1",
+      "rot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n",
+       ""
+      ],
+      [
+       "quickly",
+       "quickly"
+      ],
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "v"
+      ],
+      [
+       "die"
+      ]
+     ],
+     [
+      [
+       "a//a/a"
+      ],
+      [
+       "nicht cat the quickly"
+      ],
+      [
+       "v/n"
+      ],
+      [
+       "schnell die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "big"
+      ],
+      [
+       "v"
+      ],
+      [
+       "no"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "red"
+      ],
+      [
+       "n"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/n",
+       ""
+      ],
+      [
+       "quickly big",
+       "n't"
+      ],
+      [
+       ""
+      ],
+      [
+       "no"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/a"
+      ],
+      [
+       "runs not"
+      ],
+      [
+       "",
+       "n/a/n",
+       ""
+      ],
+      [
+       "rot",
+       "n't 不 die",
+       "ない"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "runs not",
+      "-1",
+      "rot n't 不 die ない"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/v/n/a/r"
+      ],
+      [
+       "be red red cat is"
+      ],
+      [
+       "n",
+       ""
+      ],
+      [
+       "ない",
+       "pas"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "be red red cat is",
+      "-1",
+      "ない pas"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/v"
+      ],
+      [
+       "quickly is"
+      ],
+      [
+       "r//a"
+      ],
+      [
+       "不 not katze"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "quickly is",
+      "-1",
+      "不 not katze"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "",
+       "n"
+      ],
+      [
+       "red",
+       "pas",
+       "runs"
+      ],
+      [
+       "r"
+      ],
+      [
+       "not"
+      ]
+     ],
+     [
+      [
+       "r"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "n"
+      ],
+      [
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "a/a"
+      ],
+      [
+       "pas",
+       "cat cat"
+      ],
+      [
+       "n//v"
+      ],
+      [
+       "no 不 die"
+      ]
+     ],
+     [
+      [
+       "n",
+       ""
+      ],
+      [
+       "red",
+       "big"
+      ],
+      [
+       "r"
+      ],
+      [
+       "没"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "not"
+      ],
+      [
+       "v/n"
+      ],
+      [
+       "n't ない"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "not",
+      "-1",
+      "n't ない"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/n"
+      ],
+      [
+       "is is"
+      ],
+      [
+       "v"
+      ],
+      [
+       "rot"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "be"
+      ],
+      [
+       "r"
+      ],
+      [
+       "不"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v/n"
+      ],
+      [
+       "pas nicht"
+      ],
+      [
+       "a/a"
+      ],
+      [
+       "schnell 不"
+      ]
+     ],
+     [
+      [
+       "a"
+      ],
+      [
+       "is"
+      ],
+      [
+       "r/r"
+      ],
+      [
+       "no n't"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "pas"
+      ],
+      [
+       ""
+      ],
+      [
+       "没"
+      ]
+     ],
+     [
+      [
+       "r/n"
+      ],
+      [
+       "is the"
+      ],
+      [
+       "a"
+      ],
+      [
+       "不"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "n"
+      ],
+      [
+       "cat",
+       "quickly"
+      ],
+      [
+       "a/r/v"
+      ],
+      [
+       "ne 没 没"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "runs"
+      ],
+      [
+       "a/a"
+      ],
+      [
+       "katze rot"
+      ]
+     ],
+     [
+      [
+       "r"
+      ],
+      [
+       "cat"
+      ],
+      [
+       "r"
+      ],
+      [
+       "pas"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "cat",
+      "-1",
+      "pas"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "",
+       "a"
+      ],
+      [
+       "runs",
+       "pas",
+       "n't"
+      ],
+      [
+       "",
+       "n/v//n"
+      ],
+      [
+       "katze",
+       "rot pas ない katze"
+      ]
+     ],
+     [
+      [
+       "v"
+      ],
+      [
+       "big"
+      ],
+      [
+       "v"
+      ],
+      [
+       "not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "big",
+      "-1",
+      "not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/r"
+      ],
+      [
+       "the cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "the cat",
+      "-1",
+      "ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/v/v"
+      ],
+      [
+       "red be n't"
+      ],
+      [
+       "n/n"
+      ],
+      [
+       "not 没"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "a"
+      ],
+      [
+       "not"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "runs"
+      ],
+      [
+       "v/n/n"
+      ],
+      [
+       "katze 没 pas"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n"
+      ],
+      [
+       "n't"
+      ],
+      [
+       ""
+      ],
+      [
+       "läuft"
+      ]
+     ]
+    ],
+    "relations": []
+   }
+  ],
+  "en_zh": [
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "pas"
+      ],
+      [
+       "n/n"
+      ],
+      [
+       "nedie"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "be"
+      ],
+      [
+       "",
+       "v"
+      ],
+      [
+       "rot",
+       "not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "be",
+      "-1",
+      "rotnot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "a"
+      ],
+      [
+       "quickly",
+       "the"
+      ],
+      [
+       ""
+      ],
+      [
+       "not"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v//n"
+      ],
+      [
+       "red not runs"
+      ],
+      [
+       "a/v"
+      ],
+      [
+       "non't"
+      ]
+     ],
+     [
+      [
+       "",
+       "r"
+      ],
+      [
+       "the",
+       "quickly"
+      ],
+      [
+       "a/v"
+      ],
+      [
+       "rotdie"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "red not runs",
+      "-1",
+      "non't"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/n/a"
+      ],
+      [
+       "nicht quickly pas"
+      ],
+      [
+       "v/r/v"
+      ],
+      [
+       "läuftkatze没"
+      ]
+     ],
+     [
+      [
+       "n"
+      ],
+      [
+       "cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "cat",
+      "-1",
+      "not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r"
+      ],
+      [
+       "cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "没"
+      ]
+     ],
+     [
+      [
+       "n/r/n"
+      ],
+      [
+       "pas quickly n't"
+      ],
+      [
+       "v/r"
+      ],
+      [
+       "nekatze"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "pas quickly n't",
+      "-1",
+      "nekatze"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "a"
+      ],
+      [
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r"
+      ],
+      [
+       "big"
+      ],
+      [
+       "v/r"
+      ],
+      [
+       "diepas"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "not"
+      ],
+      [
+       ""
+      ],
+      [
+       "pas"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "big",
+      "-1",
+      "diepas"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "r//a"
+      ],
+      [
+       "the",
+       "is quickly be"
+      ],
+      [
+       "",
+       "v"
+      ],
+      [
+       "läuft",
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v/r"
+      ],
+      [
+       "be n't"
+      ],
+      [
+       "",
+       "n/n"
+      ],
+      [
+       "not",
+       "nonot"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "nicht"
+      ],
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "runs"
+      ],
+      [
+       "n"
+      ],
+      [
+       "안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "nicht",
+      "-1",
+      "ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a/v",
+       "",
+       ""
+      ],
+      [
+       "big pas",
+       "red",
+       "runs"
+      ],
+      [
+       "",
+       "a"
+      ],
+      [
+       "läuft",
+       "안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "big pas red runs",
+      "-1",
+      "läuft안"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/v/a/v"
+      ],
+      [
+       "quickly is cat red"
+      ],
+      [
+       "",
+       "a/r/n",
+       ""
+      ],
+      [
+       "pas",
+       "katzepasnot",
+       "不"
+      ]
+     ],
+     [
+      [
+       "",
+       "a"
+      ],
+      [
+       "quickly",
+       "pas"
+      ],
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "quickly is cat red",
+      "-1",
+      "paskatzepasnot不"
+     ],
+     [
+      "a",
+      "-1",
+      "quickly is cat red",
+      "-1",
+      "paskatzepasnot不"
+     ],
+     [
+      "a",
+      "-1",
+      "quickly pas",
+      "-1",
+      "ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/r"
+      ],
+      [
+       "quickly ne"
+      ],
+      [
+       "r/r"
+      ],
+      [
+       "没rot"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "quickly ne",
+      "-1",
+      "没rot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "n't"
+      ],
+      [
+       "a"
+      ],
+      [
+       "rot"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "n't",
+      "-1",
+      "rot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n",
+       ""
+      ],
+      [
+       "quickly",
+       "quickly"
+      ],
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "v"
+      ],
+      [
+       "die"
+      ]
+     ],
+     [
+      [
+       "a//a/a"
+      ],
+      [
+       "nicht cat the quickly"
+      ],
+      [
+       "v/n"
+      ],
+      [
+       "schnelldie"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a",
+       ""
+      ],
+      [
+       "nicht",
+       "nicht"
+      ],
+      [
+       "v/v"
+      ],
+      [
+       "nen't"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "v/n"
+      ],
+      [
+       "cat",
+       "the not"
+      ],
+      [
+       "a/v/n/r"
+      ],
+      [
+       "schnellないnone"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "big"
+      ],
+      [
+       "v"
+      ],
+      [
+       "no"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "cat the not",
+      "-1",
+      "schnellないnone"
+     ],
+     [
+      "n",
+      "-1",
+      "cat the not",
+      "-1",
+      "schnellないnone"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "red"
+      ],
+      [
+       "n"
+      ],
+      [
+       "ne"
+      ]
+     ],
+     [
+      [
+       "a/v/r"
+      ],
+      [
+       "pas is be"
+      ],
+      [
+       "a",
+       ""
+      ],
+      [
+       "pas",
+       "schnell"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "pas is be",
+      "-1",
+      "passchnell"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/n",
+       ""
+      ],
+      [
+       "quickly big",
+       "n't"
+      ],
+      [
+       ""
+      ],
+      [
+       "no"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "is"
+      ],
+      [
+       ""
+      ],
+      [
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "n",
+       "",
+       ""
+      ],
+      [
+       "nicht",
+       "nicht",
+       "red",
+       "quickly"
+      ],
+      [
+       "r/a/n/r/n/a"
+      ],
+      [
+       "rotläuft안안läuftn't"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "nicht nicht red",
+      "-1",
+      "rotläuft안안läuftn't"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/v"
+      ],
+      [
+       "quickly is"
+      ],
+      [
+       "r//a"
+      ],
+      [
+       "不notkatze"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "quickly is",
+      "-1",
+      "不notkatze"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "",
+       "n"
+      ],
+      [
+       "red",
+       "pas",
+       "runs"
+      ],
+      [
+       "r"
+      ],
+      [
+       "not"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n",
+       ""
+      ],
+      [
+       "red",
+       "big"
+      ],
+      [
+       "r"
+      ],
+      [
+       "没"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a/n"
+      ],
+      [
+       "is not"
+      ],
+      [
+       "v"
+      ],
+      [
+       "rot"
+      ]
+     ],
+     [
+      [
+       "v"
+      ],
+      [
+       "not"
+      ],
+      [
+       "v/n"
+      ],
+      [
+       "n'tない"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "not",
+      "-1",
+      "n'tない"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "be"
+      ],
+      [
+       "r"
+      ],
+      [
+       "不"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v/n"
+      ],
+      [
+       "pas nicht"
+      ],
+      [
+       "a/a"
+      ],
+      [
+       "schnell不"
+      ]
+     ],
+     [
+      [
+       "a"
+      ],
+      [
+       "is"
+      ],
+      [
+       "r/r"
+      ],
+      [
+       "non't"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "pas"
+      ],
+      [
+       ""
+      ],
+      [
+       "没"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "runs"
+      ],
+      [
+       "a/a"
+      ],
+      [
+       "katzerot"
+      ]
+     ],
+     [
+      [
+       "r"
+      ],
+      [
+       "cat"
+      ],
+      [
+       "r"
+      ],
+      [
+       "pas"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "cat",
+      "-1",
+      "pas"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "",
+       "a"
+      ],
+      [
+       "runs",
+       "pas",
+       "n't"
+      ],
+      [
+       "",
+       "n/v//n"
+      ],
+      [
+       "katze",
+       "rotpasないkatze"
+      ]
+     ],
+     [
+      [
+       "v"
+      ],
+      [
+       "big"
+      ],
+      [
+       "v"
+      ],
+      [
+       "not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "big",
+      "-1",
+      "not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "is"
+      ],
+      [
+       "r"
+      ],
+      [
+       "katze"
+      ]
+     ],
+     [
+      [
+       "n/r"
+      ],
+      [
+       "the cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "the cat",
+      "-1",
+      "ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "runs"
+      ],
+      [
+       "v/n/n"
+      ],
+      [
+       "katze没pas"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n"
+      ],
+      [
+       "n't"
+      ],
+      [
+       ""
+      ],
+      [
+       "läuft"
+      ]
+     ]
+    ],
+    "relations": []
+   }
+  ],
+  "fr_ja": [
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "pas"
+      ],
+      [
+       "n/n"
+      ],
+      [
+       "nedie"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "be"
+      ],
+      [
+       "",
+       "v"
+      ],
+      [
+       "rot",
+       "not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "be",
+      "-1",
+      "rotnot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/v/a",
+       ""
+      ],
+      [
+       "nicht is n't",
+       "be"
+      ],
+      [
+       "",
+       "v/v/r/v"
+      ],
+      [
+       "안",
+       "diekatzenene"
+      ]
+     ],
+     [
+      [
+       "",
+       "a"
+      ],
+      [
+       "quickly",
+       "the"
+      ],
+      [
+       ""
+      ],
+      [
+       "not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "nicht is n't be",
+      "-1",
+      "안diekatzenene"
+     ],
+     [
+      "v",
+      "-1",
+      "nicht is n't be",
+      "-1",
+      "안diekatzenene"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "is"
+      ],
+      [
+       "n"
+      ],
+      [
+       "die"
+      ]
+     ],
+     [
+      [
+       "",
+       "r"
+      ],
+      [
+       "the",
+       "quickly"
+      ],
+      [
+       "a/v"
+      ],
+      [
+       "rotdie"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "v"
+      ],
+      [
+       "pas",
+       "quickly"
+      ],
+      [
+       "a/r"
+      ],
+      [
+       "안schnell"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/n/a"
+      ],
+      [
+       "nicht quickly pas"
+      ],
+      [
+       "v/r/v"
+      ],
+      [
+       "läuftkatze没"
+      ]
+     ],
+     [
+      [
+       "n"
+      ],
+      [
+       "cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "not"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "cat",
+      "-1",
+      "not"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       ""
+      ],
+      [
+       "not",
+       "big"
+      ],
+      [
+       "a/a//a"
+      ],
+      [
+       "schnellne안not"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r"
+      ],
+      [
+       "cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "没"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/n/r"
+      ],
+      [
+       "quickly runs is"
+      ],
+      [
+       "v/v/n"
+      ],
+      [
+       "nokatzeschnell"
+      ]
+     ],
+     [
+      [
+       "r"
+      ],
+      [
+       "big"
+      ],
+      [
+       "v/r"
+      ],
+      [
+       "diepas"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "not"
+      ],
+      [
+       ""
+      ],
+      [
+       "pas"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "quickly runs is",
+      "-1",
+      "nokatzeschnell"
+     ],
+     [
+      "r",
+      "-1",
+      "big",
+      "-1",
+      "diepas"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "r//a"
+      ],
+      [
+       "the",
+       "is quickly be"
+      ],
+      [
+       "",
+       "v"
+      ],
+      [
+       "läuft",
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v/r"
+      ],
+      [
+       "be n't"
+      ],
+      [
+       "",
+       "n/n"
+      ],
+      [
+       "not",
+       "nonot"
+      ]
+     ],
+     [
+      [
+       "a"
+      ],
+      [
+       "pas"
+      ],
+      [
+       "v"
+      ],
+      [
+       "schnell"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v/a",
+       ""
+      ],
+      [
+       "the not",
+       "red"
+      ],
+      [
+       "v",
+       ""
+      ],
+      [
+       "n't",
+       "n't"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "the not red",
+      "-1",
+      "n'tn't"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "nicht"
+      ],
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "runs"
+      ],
+      [
+       "n"
+      ],
+      [
+       "안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "nicht",
+      "-1",
+      "ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "a"
+      ],
+      [
+       "quickly",
+       "pas"
+      ],
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "quickly pas",
+      "-1",
+      "ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "r/n"
+      ],
+      [
+       "not",
+       "big quickly"
+      ],
+      [
+       "",
+       "r//n",
+       ""
+      ],
+      [
+       "katze",
+       "läuftrotläuft",
+       "rot"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "not big quickly",
+      "-1",
+      "katzeläuftrotläuftrot"
+     ],
+     [
+      "n",
+      "-1",
+      "not big quickly",
+      "-1",
+      "katzeläuftrotläuftrot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a/v/v"
+      ],
+      [
+       "red is quickly"
+      ],
+      [
+       "a/a/r"
+      ],
+      [
+       "不rotnot"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "red is quickly",
+      "-1",
+      "不rotnot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "",
+       ""
+      ],
+      [
+       "n't",
+       "runs",
+       "red"
+      ],
+      [
+       "v/v/r"
+      ],
+      [
+       "rotnene"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "n't"
+      ],
+      [
+       "a"
+      ],
+      [
+       "schnell"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "n't",
+      "-1",
+      "schnell"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "red"
+      ],
+      [
+       ""
+      ],
+      [
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "n't"
+      ],
+      [
+       "a"
+      ],
+      [
+       "rot"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "n't",
+      "-1",
+      "rot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v/a/n"
+      ],
+      [
+       "not runs runs"
+      ],
+      [
+       "v/n"
+      ],
+      [
+       "paskatze"
+      ]
+     ],
+     [
+      [
+       "n",
+       ""
+      ],
+      [
+       "quickly",
+       "quickly"
+      ],
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "not runs runs",
+      "-1",
+      "paskatze"
+     ],
+     [
+      "n",
+      "-1",
+      "not runs runs",
+      "-1",
+      "paskatze"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "v"
+      ],
+      [
+       "die"
+      ]
+     ],
+     [
+      [
+       "a//a/a"
+      ],
+      [
+       "nicht cat the quickly"
+      ],
+      [
+       "v/n"
+      ],
+      [
+       "schnelldie"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a",
+       ""
+      ],
+      [
+       "nicht",
+       "nicht"
+      ],
+      [
+       "v/v"
+      ],
+      [
+       "nen't"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n",
+       ""
+      ],
+      [
+       "be",
+       "cat"
+      ],
+      [
+       "r/a/v/v/n"
+      ],
+      [
+       "schnell没rotnotne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "be cat",
+      "-1",
+      "schnell没rotnotne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "big"
+      ],
+      [
+       "v"
+      ],
+      [
+       "no"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/v"
+      ],
+      [
+       "not is"
+      ],
+      [
+       "n/v/r/n"
+      ],
+      [
+       "läuft不pasrot"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "not is",
+      "-1",
+      "läuft不pasrot"
+     ],
+     [
+      "v",
+      "-1",
+      "not is",
+      "-1",
+      "läuft不pasrot"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "red"
+      ],
+      [
+       "n"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/n",
+       ""
+      ],
+      [
+       "quickly big",
+       "n't"
+      ],
+      [
+       ""
+      ],
+      [
+       "no"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n//n//v/r/r"
+      ],
+      [
+       "be big nicht not is the not"
+      ],
+      [
+       "n/v/r/n/n"
+      ],
+      [
+       "die不rot没no"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "be big nicht not is the not",
+      "-1",
+      "die不rot没no"
+     ],
+     [
+      "r",
+      "-1",
+      "be big nicht not is the not",
+      "-1",
+      "die不rot没no"
+     ],
+     [
+      "v",
+      "-1",
+      "be big nicht not is the not",
+      "-1",
+      "die不rot没no"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "n"
+      ],
+      [
+       "big",
+       "be"
+      ],
+      [
+       "a/a"
+      ],
+      [
+       "不rot"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v/a"
+      ],
+      [
+       "runs cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "ない"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       ""
+      ],
+      [
+       "quickly"
+      ],
+      [
+       "a"
+      ],
+      [
+       "n't"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v/r/n",
+       ""
+      ],
+      [
+       "quickly quickly is",
+       "runs"
+      ],
+      [
+       "r/a",
+       ""
+      ],
+      [
+       "paspas",
+       "no"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "quickly quickly is runs",
+      "-1",
+      "paspasno"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "is"
+      ],
+      [
+       ""
+      ],
+      [
+       "die"
+      ]
+     ],
+     [
+      [
+       "n/v//v"
+      ],
+      [
+       "be red not is"
+      ],
+      [
+       "v"
+      ],
+      [
+       "안"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "be red not is",
+      "-1",
+      "안"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "n",
+       "",
+       ""
+      ],
+      [
+       "nicht",
+       "nicht",
+       "red",
+       "quickly"
+      ],
+      [
+       "r/a/n/r/n/a"
+      ],
+      [
+       "rotläuft안안läuftn't"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "nicht nicht red",
+      "-1",
+      "rotläuft안안läuftn't"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/v/n/a/r"
+      ],
+      [
+       "be red red cat is"
+      ],
+      [
+       "n",
+       ""
+      ],
+      [
+       "ない",
+       "pas"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "be red red cat is",
+      "-1",
+      "ないpas"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/v"
+      ],
+      [
+       "quickly is"
+      ],
+      [
+       "r//a"
+      ],
+      [
+       "不notkatze"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "quickly is",
+      "-1",
+      "不notkatze"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "n"
+      ],
+      [
+       "die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "a/a"
+      ],
+      [
+       "pas",
+       "cat cat"
+      ],
+      [
+       "n//v"
+      ],
+      [
+       "no不die"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "not"
+      ],
+      [
+       "v/n"
+      ],
+      [
+       "n'tない"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "v",
+      "-1",
+      "not",
+      "-1",
+      "n'tない"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n/n"
+      ],
+      [
+       "is is"
+      ],
+      [
+       "v"
+      ],
+      [
+       "rot"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "be"
+      ],
+      [
+       "r"
+      ],
+      [
+       "不"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v/n"
+      ],
+      [
+       "pas nicht"
+      ],
+      [
+       "a/a"
+      ],
+      [
+       "schnell不"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "pas"
+      ],
+      [
+       ""
+      ],
+      [
+       "没"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "",
+       "n"
+      ],
+      [
+       "cat",
+       "quickly"
+      ],
+      [
+       "a/r/v"
+      ],
+      [
+       "ne没没"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "v"
+      ],
+      [
+       "runs"
+      ],
+      [
+       "a/a"
+      ],
+      [
+       "katzerot"
+      ]
+     ],
+     [
+      [
+       "r"
+      ],
+      [
+       "cat"
+      ],
+      [
+       "r"
+      ],
+      [
+       "pas"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "r",
+      "-1",
+      "cat",
+      "-1",
+      "pas"
+     ]
+    ]
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "a"
+      ],
+      [
+       "is"
+      ],
+      [
+       "r"
+      ],
+      [
+       "katze"
+      ]
+     ],
+     [
+      [
+       "n/r"
+      ],
+      [
+       "the cat"
+      ],
+      [
+       "n"
+      ],
+      [
+       "ne"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "n",
+      "-1",
+      "the cat",
+      "-1",
+      "ne"
+     ]
+    ]
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "r/v/v"
+      ],
+      [
+       "red be n't"
+      ],
+      [
+       "n/n"
+      ],
+      [
+       "not没"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n"
+      ],
+      [
+       "ne"
+      ],
+      [
+       "a"
+      ],
+      [
+       "not"
+      ]
+     ],
+     [
+      [
+       ""
+      ],
+      [
+       "runs"
+      ],
+      [
+       "v/n/n"
+      ],
+      [
+       "katze没pas"
+      ]
+     ]
+    ],
+    "relations": []
+   },
+   {
+    "alignmented": [
+     [
+      [
+       "n"
+      ],
+      [
+       "n't"
+      ],
+      [
+       ""
+      ],
+      [
+       "läuft"
+      ]
+     ],
+     [
+      [
+       "a"
+      ],
+      [
+       "be"
+      ],
+      [
+       "n//a"
+      ],
+      [
+       "die不没"
+      ]
+     ]
+    ],
+    "relations": [
+     [
+      "a",
+      "-1",
+      "be",
+      "-1",
+      "die不没"
+     ]
+    ]
+   }
+  ]
+ }
+}

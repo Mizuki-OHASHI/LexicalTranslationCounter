@@ -9,6 +9,7 @@ import sys
 import time
 import traceback
 
+from ltc.env import get_positive_int_env
 from ltc.errors import FatalRuntimeError
 from ltc.io.corpus import CsvRowReader
 from ltc.io.relations import write_final_relations, write_relations_snapshot
@@ -23,19 +24,6 @@ from ltc.pipeline.counting import (
 from ltc.runtime import load_alignment_runtime, load_normalizer
 from ltc.schema import CountCommandConfig
 from ltc.timing import TIMER, timed
-
-
-def get_positive_int_env(name, default):
-    value = os.environ.get(name)
-    if value is None:
-        return default
-    try:
-        parsed = int(value)
-    except ValueError as exc:
-        raise ValueError(f"{name} must be an integer: {value!r}") from exc
-    if parsed <= 0:
-        raise ValueError(f"{name} must be positive: {value!r}")
-    return parsed
 
 
 def parse_args(argv):
@@ -138,9 +126,7 @@ def main(argv=None):
     TIMER.set_metadata("output_dir", config.output_dir)
     TIMER.set_metadata("input_dir", config.input_dir)
     TIMER.set_metadata("batch_size", config.batch_size)
-    TIMER.set_metadata(
-        "checkpoint_interval_rows", config.checkpoint_interval_rows
-    )
+    TIMER.set_metadata("checkpoint_interval_rows", config.checkpoint_interval_rows)
     TIMER.set_metadata("end_id", config.end_id)
     TIMER.set_metadata("skip_resume", config.skip_resume)
 
@@ -186,7 +172,8 @@ def main(argv=None):
     output_mode = "a" if config.resume_active else "w"
     log_mode = "a" if config.resume_active else "w"
     with open(
-        os.path.join(config.output_dir, f"corpus_{config.language_pair}.csv"), output_mode
+        os.path.join(config.output_dir, f"corpus_{config.language_pair}.csv"),
+        output_mode,
     ) as output_file, open(
         os.path.join(config.output_dir, "passed_log.txt"), log_mode
     ) as passed_log_file:
@@ -196,7 +183,9 @@ def main(argv=None):
             with timed("count.post_processing", metadata={"row_id": corpus_row[0]}):
                 output_l = relation_state.apply_alignment_output(corpus_row, output_l)
                 if output_corpus_row_num <= i:
-                    output_writer.writerow(build_corpus_output_row(corpus_row, output_l))
+                    output_writer.writerow(
+                        build_corpus_output_row(corpus_row, output_l)
+                    )
             print("passed_id:", i)
             print(corpus_row[1], corpus_row[2])
             print(output_l)
@@ -294,7 +283,9 @@ def main(argv=None):
                     relation_state.relations,
                 )
                 if progress.last_processed_id is not None:
-                    with open(os.path.join(config.output_dir, "passed_id.txt"), "w") as f:
+                    with open(
+                        os.path.join(config.output_dir, "passed_id.txt"), "w"
+                    ) as f:
                         f.write(str(progress.last_processed_id))
             TIMER.record("run.total", time.perf_counter() - run_start)
             TIMER.dump_json(
