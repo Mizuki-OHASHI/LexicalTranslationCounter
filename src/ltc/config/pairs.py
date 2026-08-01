@@ -75,6 +75,19 @@ PAIR_CONFIGS = {
         ),
         threshold=4e-7,
     ),
+    "en_ru": PairAlignmentConfig(
+        pair="en_ru",
+        # No fine-tuned en-ru model yet, so this runs on plain multilingual
+        # BERT. Register one with `ltc.cli.register_awesome_model --pair en-ru`
+        # and it takes precedence without touching this file.
+        model_dir_name=None,
+        src_ignore_rules=(EN_NEGATION,),
+        # Russian negates with a preposed particle `не`, like English `not`.
+        trg_ignore_rules=(TokenIgnoreRule(words=("не",), offset=1),),
+        # Matches the other multilingual-BERT pairs (en_es, en_ko); revisit
+        # once a fine-tuned model is registered.
+        threshold=4e-7,
+    ),
     "en_zh": PairAlignmentConfig(
         pair="en_zh",
         model_dir_name="awesome_model_without_co",

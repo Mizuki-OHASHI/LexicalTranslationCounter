@@ -59,6 +59,11 @@ ko = [
   "nltk",
   "pyknp",
 ]
+ru = [
+  "django-environ",
+  "natasha",
+  "pandas",
+]
 de-en = [
   "django-environ",
   "germalemma",
@@ -74,6 +79,14 @@ en-ja = [
   "pandas",
   "sudachipy",
   "sudachidict_core",
+  "torch==2.0.1",
+  "transformers==4.33.3",
+]
+en-ru = [
+  "django-environ",
+  "natasha",
+  "nltk",
+  "pandas",
   "torch==2.0.1",
   "transformers==4.33.3",
 ]

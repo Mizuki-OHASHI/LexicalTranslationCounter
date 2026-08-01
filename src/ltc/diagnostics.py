@@ -5,7 +5,6 @@ from __future__ import annotations
 import importlib
 from dataclasses import asdict, dataclass
 
-
 MODULE_GROUPS = {
     "normalizer": [
         "normalizer.de_normalizer",
@@ -15,6 +14,7 @@ MODULE_GROUPS = {
         "normalizer.it_normalizer",
         "normalizer.ja_normalizer",
         "normalizer.ko_normalizer",
+        "normalizer.ru_normalizer",
         "normalizer.zh_normalizer",
     ],
     "morphological": [
@@ -25,6 +25,7 @@ MODULE_GROUPS = {
         "morphological.it_morphological",
         "morphological.ja_morphological",
         "morphological.ko_morphological",
+        "morphological.ru_morphological",
         "morphological.zh_morphological",
     ],
     "alignment": [
@@ -34,6 +35,7 @@ MODULE_GROUPS = {
         "alignment.en_it",
         "alignment.en_ja",
         "alignment.en_ko",
+        "alignment.en_ru",
         "alignment.en_zh",
         "alignment.fr_ja",
     ],

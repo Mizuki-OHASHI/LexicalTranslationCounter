@@ -39,7 +39,8 @@ class RuntimeConfig:
     langs: tuple[str, str]
     requirements: tuple[str, ...]
     python_imports: tuple[str, ...]
-    model_dir_name: str
+    # None for pairs that never had a fine-tuned local model.
+    model_dir_name: str | None
     spacy_model: str | None = None
     extra_pip_packages: tuple[str, ...] = ()
     external_commands: tuple[str, ...] = ()
@@ -71,6 +72,30 @@ RUNTIMES = {
         model_dir_name="awesome_model_with_co",
         spacy_model="de_dep_news_trf",
         extra_pip_packages=("spacy<3.8.0",),
+    ),
+    "en-ru": RuntimeConfig(
+        language_pair="en-ru",
+        langs=("en", "ru"),
+        requirements=(
+            "shell_scripts/basis/requirements.txt",
+            "shell_scripts/en/requirements.txt",
+            "shell_scripts/ru/requirements.txt",
+            "shell_scripts/en-ru/requirements.txt",
+        ),
+        python_imports=(
+            "environ",
+            "natasha",
+            "nltk",
+            "pandas",
+            "razdel",
+            "slovnet",
+            "torch",
+            "transformers",
+        ),
+        # No fine-tuned en-ru model exists yet; resolution falls back to
+        # multilingual BERT.
+        model_dir_name=None,
+        extra_pip_packages=("natasha",),
     ),
     "en-ja": RuntimeConfig(
         language_pair="en-ja",
@@ -141,7 +166,14 @@ def install_nltk_data(root: Path, python_path: Path) -> None:
     nltk_dir = root / "nltk_data"
     nltk_dir.mkdir(exist_ok=True)
     run(
-        [str(python_path), "-m", "nltk.downloader", "-d", str(nltk_dir), *NLTK_PACKAGES],
+        [
+            str(python_path),
+            "-m",
+            "nltk.downloader",
+            "-d",
+            str(nltk_dir),
+            *NLTK_PACKAGES,
+        ],
         root,
     )
 
@@ -174,9 +206,7 @@ def check_python_runtime(
 
 def missing_external_commands(root: Path, config: RuntimeConfig) -> list[str]:
     return [
-        command
-        for command in config.external_commands
-        if shutil.which(command) is None
+        command for command in config.external_commands if shutil.which(command) is None
     ]
 
 
@@ -199,18 +229,24 @@ def check_awesome_align_model(root: Path, config: RuntimeConfig) -> list[str]:
     return []
 
 
-def print_external_command_help(root: Path, config: RuntimeConfig, missing: list[str]) -> None:
+def print_external_command_help(
+    root: Path, config: RuntimeConfig, missing: list[str]
+) -> None:
     print("\nMissing external runtime commands:")
     for command in missing:
         print(f"- {command}")
-    print("\nIf you want to compare against the legacy Juman++ path, install Juman++ and")
+    print(
+        "\nIf you want to compare against the legacy Juman++ path, install Juman++ and"
+    )
     print("make `jumanpp` available on PATH. On macOS, Homebrew can install it with")
     print("`brew install jumanpp`.")
     print("See:")
     print(f"  {root / 'documents' / config.language_pair / 'Readme.md'}")
 
 
-def print_model_help(root: Path, config: RuntimeConfig, missing_files: list[str]) -> None:
+def print_model_help(
+    root: Path, config: RuntimeConfig, missing_files: list[str]
+) -> None:
     registry_dir = canonical_awesome_model_registry_dir_from_root(
         root, config.pair_underscore
     )
@@ -230,11 +266,12 @@ def print_model_help(root: Path, config: RuntimeConfig, missing_files: list[str]
         "\nStill supported: set LTC_AWESOME_ALIGN_MODEL_<PAIR> or "
         "LTC_AWESOME_ALIGN_MODEL to a Hugging Face model name or local path."
     )
-    print(
-        "Legacy local directories under src/model/ are also still supported "
-        "during migration:"
-    )
-    print(f"  {root / 'src' / 'model' / config.model_dir_name}")
+    if config.model_dir_name:
+        print(
+            "Legacy local directories under src/model/ are also still supported "
+            "during migration:"
+        )
+        print(f"  {root / 'src' / 'model' / config.model_dir_name}")
     print(
         "\nAfter registering, check the resolution state with:\n"
         f"  PYTHONPATH=src python3 -m ltc.cli.awesome_model_status --pair "
@@ -308,7 +345,9 @@ def main() -> int:
         pair_name=config.pair_underscore,
     )
     smoke_input_dir = root / "projects" / "smoke" / config.pair_underscore / "input"
-    example_input_dir = smoke_input_dir if smoke_input_dir.is_dir() else root / "src" / "test" / "data"
+    example_input_dir = (
+        smoke_input_dir if smoke_input_dir.is_dir() else root / "src" / "test" / "data"
+    )
     example_input_dir_display = example_input_dir.relative_to(root)
     print(f"\nLocal {config.language_pair} runtime is ready.")
     print(
